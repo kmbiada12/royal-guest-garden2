@@ -1,0 +1,25 @@
+traitement d'images:
+------------------------------------------
+
+Agis comme un photographe professionnel spécialisé dans l'hôtellerie de luxe. Analyse la structure, la disposition des meubles et l'angle de la photo réelle que je viens de te transmettre.
+Génère une nouvelle image au format paysage (aspect ratio 16:9) qui recrée exactement cette scène mais en version sublimée, digne d'un magazine de décoration. Applique strictement les consignes suivantes :
+• Cadrage & Perspective : Conserve la même disposition spatiale et le même angle de vue. Les lignes architecturales doivent être parfaitement droites et verticales.
+• Lumière : Ajoute une lumière du jour naturelle, douce et traversante, qui baigne la pièce de façon chaleureuse et lumineuse. Élimine les zones d'ombre trop sombres.
+• Mise en scène : Supprime tous les éléments parasites ou imperfections (plis sur les tissus, câbles visibles, objets inutiles). Les surfaces doivent être impeccables et épurées. Les draps et textiles doivent être parfaitement lissés et de qualité premium.
+• Style : Rendu haut de gamme, photoréaliste, ultra-détaillé (8k), avec des textures riches et des couleurs naturelles et vendeuses.
+
+------------------------
+…or push an existing repository from the command line
+git remote add origin https://github.com/kmbiada12/royal-guest-garden2.git
+git branch -M main
+git push -u origin main
+
+-------------------
+…or create a new repository on the command line
+echo "# royal-guest-garden2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kmbiada12/royal-guest-garden2.git
+git push -u origin main

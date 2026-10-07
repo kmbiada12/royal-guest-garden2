@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Règlement intérieur — Royal Guest Garden Yaoundé</title>
+    <meta
+      name="description"
+      content="Consultez le règlement intérieur de la résidence Royal Guest Garden à Yaoundé : interdictions, sécurité, environnement et numéros utiles."
+    />
+    <meta name="theme-color" content="#123b38" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a2e'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='18' fill='%23d4a853' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E"
+    />
+
+    <script src="js/config.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/helpers.js" defer></script>
+    <script src="js/icons.js" defer></script>
+    <script src="js/cards.js" defer></script>
+    <script src="js/whatsapp.js" defer></script>
+    <script src="js/layout.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/booking.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+    <style>
+      :root {
+        --reglement-dark: #0c2b2a;
+        --reglement-deep: #123b38;
+        --reglement-green: #1d5853;
+        --reglement-green-light: #4b8b80;
+        --reglement-cream: #dbe9e5;
+        --reglement-paper: #dfeae8;
+        --reglement-gold: #d9b86a;
+        --reglement-gold-deep: #b18d42;
+        --reglement-ink: #1d2d2f;
+      }
+
+      .reglement-page {
+        padding: 2.25rem 0 4.5rem;
+        background: linear-gradient(180deg, #111b1a 0%, #0f1515 100%);
+      }
+
+      .reglement-shell {
+        max-width: 1180px;
+        margin: 0 auto;
+        background: var(--reglement-paper);
+        border-radius: 0 0 26px 26px;
+        overflow: hidden;
+        box-shadow: 0 22px 48px rgba(2, 16, 17, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .reglement-hero {
+        position: relative;
+        background: linear-gradient(180deg, rgba(5, 32, 30, 0.96), rgba(18, 66, 62, 0.96));
+        padding: 2rem 1.4rem 0;
+        overflow: hidden;
+      }
+
+      .reglement-hero::before,
+      .reglement-hero::after {
+        content: "";
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        background: radial-gradient(circle at 30% 30%, rgba(218, 186, 113, 0.22), transparent 60%);
+        border-radius: 50%;
+        top: -70px;
+      }
+
+      .reglement-hero::before {
+        left: -60px;
+      }
+
+      .reglement-hero::after {
+        right: -40px;
+      }
+
+      .reglement-header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 220px;
+        padding: 0.8rem 1rem 1.6rem;
+      }
+
+      .reglement-header__flora {
+        position: absolute;
+        top: 28px;
+        width: 180px;
+        height: 160px;
+        opacity: 0.9;
+        background:
+          radial-gradient(circle at 50% 50%, rgba(214, 190, 126, 0.28) 0 8%, transparent 8%),
+          linear-gradient(135deg, transparent 0 48%, rgba(222, 202, 146, 0.8) 49% 52%, transparent 52%),
+          linear-gradient(225deg, transparent 0 48%, rgba(222, 202, 146, 0.8) 49% 52%, transparent 52%);
+        filter: blur(0.4px);
+      }
+
+      .reglement-header__flora--left {
+        left: 0;
+        transform: rotate(18deg) scaleX(-1);
+      }
+
+      .reglement-header__flora--right {
+        right: 0;
+        transform: rotate(-18deg);
+      }
+
+      .reglement-brand {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        color: #f4e8c8;
+      }
+
+      .reglement-brand__logo {
+        width: 120px;
+        height: auto;
+        margin: 0 auto 0.6rem;
+        filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.18));
+      }
+
+      .reglement-brand__title {
+        font-family: var(--font-head);
+        font-weight: 700;
+        font-size: clamp(2.2rem, 3vw, 4rem);
+        letter-spacing: -0.04em;
+        color: #f4e7c3;
+        text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .reglement-brand__subtitle {
+        font-size: 0.75rem;
+        letter-spacing: 0.32em;
+        font-weight: 700;
+        color: rgba(244, 232, 195, 0.8);
+        text-transform: uppercase;
+      }
+
+      .reglement-header__meta {
+        position: absolute;
+        right: 2.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        text-align: right;
+        font-family: var(--font-head);
+        font-size: clamp(1.2rem, 2vw, 1.9rem);
+        line-height: 1.1;
+        color: rgba(244, 233, 195, 0.9);
+        font-style: italic;
+      }
+
+      .reglement-content {
+        background: var(--reglement-cream);
+        padding: 1.5rem 1.5rem 2rem;
+      }
+
+      .reglement-title {
+        margin: 0 auto 1.1rem;
+        width: min(100%, 760px);
+        padding: 1rem 1.2rem 0.8rem;
+        border-radius: 18px 18px 16px 16px;
+        background: linear-gradient(180deg, rgba(20, 82, 76, 0.95), rgba(16, 67, 62, 0.96));
+        color: #f9efe0;
+        text-align: center;
+        font-size: clamp(2.3rem, 4vw, 4rem);
+        line-height: 1.1;
+        text-transform: uppercase;
+        box-shadow: inset 0 0 0 2px rgba(239, 208, 126, 0.25);
+      }
+
+      .reglement-title span {
+        display: block;
+        font-size: 0.76em;
+      }
+
+      .reglement-intro {
+        max-width: 760px;
+        margin: 0 auto 1.6rem;
+        text-align: justify;
+        font-family: var(--font-head);
+        font-size: clamp(1.15rem, 2vw, 1.7rem);
+        line-height: 1.4;
+        color: var(--reglement-deep);
+        font-style: italic;
+      }
+
+      .reglement-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.7fr) minmax(280px, 0.96fr);
+        gap: 1.6rem;
+        align-items: start;
+      }
+
+      .rule-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 0.95rem;
+      }
+
+      .rule-card {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.9rem;
+        align-items: center;
+        background: rgba(11, 84, 79, 0.04);
+        border: 1px solid rgba(25, 82, 78, 0.2);
+        border-radius: 18px;
+        padding: 0.9rem 1rem 0.9rem 0.8rem;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+      }
+
+      .rule-card__icon {
+        width: 58px;
+        height: 58px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        background: rgba(12, 62, 58, 0.08);
+        border: 3px solid rgba(19, 86, 81, 0.9);
+        font-size: 1.7rem;
+        line-height: 1;
+      }
+
+      .rule-card__content {
+        min-width: 0;
+      }
+
+      .rule-card__title {
+        margin: 0 0 0.15rem;
+        font-size: clamp(1.2rem, 2vw, 1.65rem);
+        font-family: var(--font-head);
+        font-weight: 700;
+        color: var(--reglement-deep);
+        line-height: 1.1;
+        text-transform: uppercase;
+      }
+
+      .rule-card__text {
+        margin: 0;
+        color: var(--reglement-ink);
+        font-size: 0.96rem;
+        line-height: 1.55;
+        text-align: justify;
+      }
+
+      .aside-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .info-box {
+        background: linear-gradient(180deg, rgba(18, 81, 76, 0.96), rgba(22, 84, 81, 0.96));
+        border-radius: 18px;
+        padding: 1.2rem 1rem 1rem;
+        box-shadow: 0 12px 32px rgba(17, 64, 60, 0.15);
+        color: #edf8f7;
+      }
+
+      .info-box__header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .info-box__icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.14);
+        font-size: 1.4rem;
+      }
+
+      .info-box__title {
+        margin: 0;
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        font-family: var(--font-head);
+        text-transform: uppercase;
+        line-height: 1.1;
+      }
+
+      .info-box__body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        color: rgba(239, 250, 248, 0.92);
+      }
+
+      .info-box__body p {
+        margin: 0;
+        font-size: 0.98rem;
+        line-height: 1.55;
+        text-align: justify;
+      }
+
+      .info-box__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .info-box__list li {
+        display: grid;
+        grid-template-columns: 18px 1fr;
+        align-items: start;
+        gap: 0.55rem;
+        font-size: 0.98rem;
+        line-height: 1.5;
+      }
+
+      .info-box__list li::before {
+        content: "✓";
+        color: #c0eecb;
+        font-weight: 800;
+      }
+
+      .contacts-list {
+        background: #edf4f1;
+        border-radius: 18px;
+        padding: 1rem 1rem 0.9rem;
+        border: 1px solid rgba(15, 81, 77, 0.15);
+      }
+
+      .contacts-list h3 {
+        margin: 0 0 0.8rem;
+        text-align: center;
+        font-size: clamp(1.35rem, 2vw, 1.8rem);
+        color: var(--reglement-deep);
+        text-transform: uppercase;
+        font-family: var(--font-head);
+      }
+
+      .contacts-list__item {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 0.75rem;
+        align-items: center;
+        padding: 0.55rem 0.4rem;
+        border-bottom: 1px solid rgba(19, 86, 81, 0.15);
+      }
+
+      .contacts-list__item:last-child {
+        border-bottom: 0;
+      }
+
+      .contacts-list__label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--reglement-deep);
+        font-weight: 700;
+      }
+
+      .contacts-list__icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font-size: 1.05rem;
+        background: rgba(18, 74, 70, 0.08);
+      }
+
+      .contacts-list__item a {
+        color: var(--reglement-deep);
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .reglement-footer {
+        margin-top: 1.4rem;
+        padding: 0.2rem 0 0.5rem;
+        text-align: center;
+      }
+
+      .reglement-footer__badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: min(90vw, 440px);
+        margin: 0 auto;
+        padding: 0.9rem 1.4rem;
+        border-radius: 999px;
+        background: linear-gradient(135deg, rgba(15, 88, 82, 0.94), rgba(11, 73, 67, 0.94));
+        color: #f9efe0;
+        font-family: var(--font-head);
+        font-size: clamp(1.2rem, 2vw, 1.7rem);
+        box-shadow: 0 12px 28px rgba(21, 72, 67, 0.15);
+      }
+
+      @media (max-width: 980px) {
+        .reglement-header {
+          min-height: 182px;
+        }
+
+        .reglement-header__meta {
+          display: none;
+        }
+
+        .reglement-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .reglement-page {
+          padding-top: 1.25rem;
+        }
+
+        .reglement-hero {
+          padding-top: 1rem;
+        }
+
+        .reglement-brand__subtitle {
+          letter-spacing: 0.2em;
+        }
+
+        .reglement-content {
+          padding-inline: 0.95rem;
+        }
+
+        .rule-card {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+
+        .rule-card__icon {
+          justify-self: center;
+        }
+
+        .contacts-list__item {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body data-page="reglement">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Aller au contenu principal</a>
+    <div id="site-header"></div>
+
+    <main id="main" class="reglement-page">
+      <div class="reglement-shell">
+        <header class="reglement-hero">
+          <div class="reglement-header__flora reglement-header__flora--left" aria-hidden="true"></div>
+          <div class="reglement-header__flora reglement-header__flora--right" aria-hidden="true"></div>
+
+          <div class="reglement-header">
+            <div class="reglement-brand" aria-label="Royal Guest Garden">
+              <img class="reglement-brand__logo" src="img/logo-rgg.png" alt="Logo Royal Guest Garden" />
+              <div class="reglement-brand__title">Royal Guest Garden</div>
+              <div class="reglement-brand__subtitle">RÉSIDENCE HÔTELIÈRE</div>
+            </div>
+            <div class="reglement-header__meta" aria-hidden="true">
+              <span>Votre confort</span>
+              <span>est notre priorité</span>
+            </div>
+          </div>
+        </header>
+
+        <section class="reglement-content" aria-labelledby="reglement-title">
+          <h1 class="reglement-title" id="reglement-title">
+            RÈGLEMENT INTÉRIEUR
+            <span>DE LA RÉSIDENCE</span>
+          </h1>
+
+          <p class="reglement-intro">
+            Afin de garantir un séjour agréable à tous nos hôtes,
+            veuillez respecter les règles suivantes :
+          </p>
+
+          <div class="reglement-grid">
+            <div class="rule-panel">
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🚫</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Interdiction de voler</h2>
+                  <p class="rule-card__text">Il est strictement interdit de voler le matériel de la résidence ou celui des autres clients. Tout acte de vol sera signalé aux autorités compétentes.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🚫</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Interdiction de casser</h2>
+                  <p class="rule-card__text">Toute dégradation du matériel, des équipements ou du mobilier de la résidence est passible de sanctions et de remboursement.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🚭</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Interdiction de fumer</h2>
+                  <p class="rule-card__text">Il est interdit de fumer dans les chambres et à l'intérieur des locaux. Merci d'utiliser les espaces désignés.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🔇</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Pas de fêtes ni de bruits</h2>
+                  <p class="rule-card__text">Les fêtes, rassemblements bruyants et nuisances sonores ne sont pas tolérés afin de respecter la tranquillité des autres clients.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🪪</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Obligation de présenter une pièce d'identité</h2>
+                  <p class="rule-card__text">Toute personne doit présenter une pièce d'identité valide à l'arrivée et lors de tout contrôle demandé par la direction.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">♻️</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Respect de l'environnement</h2>
+                  <p class="rule-card__text">Veuillez à la propreté des lieux. Ne jetez pas les déchets à l'intérieur du jardin et respectez les espaces communs.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🐾</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Animaux non autorisés</h2>
+                  <p class="rule-card__text">Les animaux de compagnie ne sont pas admis dans la résidence, sauf autorisation préalable de la direction.</p>
+                </div>
+              </article>
+
+              <article class="rule-card">
+                <div class="rule-card__icon" aria-hidden="true">🕒</div>
+                <div class="rule-card__content">
+                  <h2 class="rule-card__title">Heures de calme</h2>
+                  <p class="rule-card__text">Le calme est requis de 22h00 à 7h00. Merci de respecter les horaires de repos afin d'assurer le confort de chacun.</p>
+                </div>
+              </article>
+            </div>
+
+            <aside class="aside-panel">
+              <div class="info-box">
+                <div class="info-box__header">
+                  <div class="info-box__icon" aria-hidden="true">⚠️</div>
+                  <h2 class="info-box__title">Important</h2>
+                </div>
+
+                <div class="info-box__body">
+                  <p>Tout manquement au règlement intérieur pourra entraîner l'expulsion immédiate sans remboursement.</p>
+                  <ul class="info-box__list">
+                    <li>Chaque client est responsable de ses effets personnels.</li>
+                    <li>La résidence décline toute responsabilité en cas de perte ou de vol.</li>
+                    <li>Nous vous remercions de votre coopération et votre compréhension.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="contacts-list">
+                <h3>Numéros utiles<br>en cas d'urgence</h3>
+
+                <div class="contacts-list__item">
+                  <div class="contacts-list__label"><span class="contacts-list__icon" aria-hidden="true">🚓</span> Police nationale</div>
+                  <a href="tel:+237117">117</a>
+                </div>
+
+                <div class="contacts-list__item">
+                  <div class="contacts-list__label"><span class="contacts-list__icon" aria-hidden="true">🚑</span> Gendarmerie nationale</div>
+                  <a href="tel:+237170">170</a>
+                </div>
+
+                <div class="contacts-list__item">
+                  <div class="contacts-list__label"><span class="contacts-list__icon" aria-hidden="true">✚</span> Urgences médicales</div>
+                  <a href="tel:+2371510">1510</a>
+                </div>
+
+                <div class="contacts-list__item">
+                  <div class="contacts-list__label"><span class="contacts-list__icon" aria-hidden="true">🚨</span> Sapeurs-pompiers</div>
+                  <a href="tel:+237118">118</a>
+                </div>
+              </div>
+
+              <div class="reglement-footer">
+                <div class="reglement-footer__badge">Ensemble pour un séjour sûr et agréable !</div>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

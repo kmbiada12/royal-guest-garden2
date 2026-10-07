@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Royal Guest Garden — Hôtel 4 étoiles à Yaoundé</title>
+    <meta
+      name="description"
+      content="Royal Guest Garden, résidence hôtelière 4 étoiles rue Hippodrome à Yaoundé : 12 chambres, petit-déjeuner, restaurant, piscine et réservation rapide par WhatsApp."
+    />
+    <meta name="theme-color" content="#1a1a2e" />
+    <link rel="canonical" href="index.html" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a2e'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='18' fill='%23d4a853' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E"
+    />
+
+    <script src="js/config.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/helpers.js" defer></script>
+    <script src="js/icons.js" defer></script>
+    <script src="js/cards.js" defer></script>
+    <script src="js/whatsapp.js" defer></script>
+    <script src="js/layout.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/booking.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/page-home.js" defer></script>
+  </head>
+
+  <body data-page="home">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Aller au contenu principal</a>
+
+    <div id="site-header"></div>
+
+    <main id="main">
+      <!-- ================= BANDEAU ================= -->
+      <section class="hero">
+        <img
+          class="hero__media"
+          src="img/home-image.png"
+          alt="Salle commune lumineuse du Royal Guest Garden"
+          data-home-hero
+          width="2000"
+          height="1200"
+          fetchpriority="high"
+        />
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__badge">
+              <span data-i18n="home.badge">Hôtel 4 étoiles · Yaoundé, Rue Hippodrome</span>
+            </p>
+            <h1 class="hero__title" data-i18n="home.hero.title">
+              Le confort d&rsquo;un hôtel, la douceur d&rsquo;une maison de famille
+            </h1>
+            <p class="hero__text" data-i18n="home.hero.subtitle">
+              Douze chambres rénovées rue Hippodrome, à deux pas du centre
+              administratif de Yaoundé. Petit-déjeuner, service en chambre et
+              réception 24 h/24.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn-gold btn-lg" href="rooms.html" data-no-wa data-i18n="home.hero.cta1">
+                Voir les chambres
+              </a>
+              <a class="btn btn-outline btn-lg" href="#contact-quick" data-no-wa data-i18n="home.hero.cta2">
+                Réserver par WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+        <a class="hero__scroll" href="#intro" data-no-wa data-i18n="home.hero.scroll">Découvrir</a>
+      </section>
+
+      <!-- ================= INFORMATIONS RAPIDES ================= -->
+      <section class="quickbar" data-i18n-attr="aria-label:a11y.practical" aria-label="Informations pratiques">
+        <div class="container">
+          <div class="quickbar__grid">
+            <div class="quickbar__item">
+              <span class="icon-slot" data-icon="calendar"></span>
+              <span>
+                <span class="quickbar__label" data-i18n="home.quick.checkin">Arrivée</span>
+                <span class="quickbar__value">15:00</span>
+              </span>
+            </div>
+            <div class="quickbar__item">
+              <span class="icon-slot" data-icon="clock"></span>
+              <span>
+                <span class="quickbar__label" data-i18n="home.quick.checkout">Départ</span>
+                <span class="quickbar__value">11:00</span>
+              </span>
+            </div>
+            <div class="quickbar__item">
+              <span class="icon-slot" data-icon="bell"></span>
+              <span>
+                <span class="quickbar__label" data-i18n="home.quick.reception">Réception</span>
+                <span class="quickbar__value" data-i18n="home.quick.value24">24 h/24</span>
+              </span>
+            </div>
+            <div class="quickbar__item">
+              <span class="icon-slot" data-icon="wallet"></span>
+              <span>
+                <span class="quickbar__label" data-i18n="home.quick.from">Chambres à partir de</span>
+                <span class="quickbar__value" data-home-from-price>20 000 FCFA</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= AVIS DE DÉMONSTRATION ================= -->
+      <div class="section section--tight section--white">
+        <div class="container">
+          <div class="notice" data-demo-notice>
+            <p class="notice__title" data-i18n="common.demoBadge">Contenu de démonstration</p>
+            <p data-i18n="demo.notice">
+              Démonstration : les chambres, les tarifs, les témoignages et les
+              coordonnées présentés sur ce site sont des exemples. La disponibilité
+              réelle doit être confirmée par l&rsquo;hôtel.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= PRÉSENTATION ================= -->
+      <section class="section section--cream" id="intro">
+        <div class="container split">
+          <div class="split__media">
+            <img
+              src="img/branding.png"
+              alt="Chambre lumineuse avec lit double et fenêtre sur le jardin"
+              loading="lazy"
+              width="1200"
+              height="960"
+            />
+            <div class="split__badge">
+              <strong data-home-room-count>12</strong>
+              <span data-i18n="common.category">Chambres</span>
+            </div>
+          </div>
+          <div>
+            <p class="eyebrow" data-i18n="home.intro.eyebrow">La maison</p>
+            <h2 data-i18n="home.intro.title">Un havre de paix au cœur de Yaoundé</h2>
+            <p data-i18n="home.intro.p1">
+              Le Royal Guest Garden est une résidence hôtelière de quatre étoiles
+              située rue Hippodrome, dans un quartier calme à quelques minutes des
+              ministères et du centre administratif.
+            </p>
+            <p data-i18n="home.intro.p2">
+              Nos douze chambres combinent la sobriété d&rsquo;un hôtel moderne et la
+              chaleur d&rsquo;une maison accueillante : literie de qualité, climatisation,
+              eau chaude, connexion Wi-Fi fibre et petit-déjeunercontinental.
+            </p>
+            <p data-i18n="home.intro.p3">
+              L&rsquo;équipe est présente en permanence. Un fax, un rendez-vous, un
+              passage de nuit ou un séjour en famille&nbsp;: nous adaptons le séjour à
+              votre rythme.
+            </p>
+            <a class="btn btn-navy" href="about.html" data-no-wa data-i18n="home.intro.cta">
+              Découvrir l&rsquo;hôtel
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CHAMBRES MISES EN AVANT ================= -->
+      <section class="section section--white">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="home.featured.eyebrow">Les chambres</p>
+            <h2 data-i18n="home.featured.title">Nos meilleures chambres</h2>
+            <p data-i18n="home.featured.subtitle">
+              Quatre chambres qui illustrent notre gamme : de la chambre Supérieure à
+              la suite panoramique.
+            </p>
+            <hr class="rule" />
+          </div>
+          <div class="cards" data-featured-rooms></div>
+          <p class="text-center" style="margin-top: var(--sp-6)">
+            <a class="btn btn-outline" href="rooms.html" data-no-wa data-i18n="home.featured.all">
+              Voir les 12 chambres
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= SERVICES ================= -->
+      <section class="section section--cream">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="home.services.eyebrow">Sur place</p>
+            <h2 data-i18n="home.services.title">Hébergement et services</h2>
+            <p data-i18n="home.services.subtitle">
+              Restaurant, bar, piscine, salle de sport, terrains de tennis et
+              salles de réunion&nbsp;: tout est prévu sur le même site.
+            </p>
+            <hr class="rule" />
+          </div>
+          <div class="cards home-services" data-home-services></div>
+          <p class="text-center" style="margin-top: var(--sp-6)">
+            <a class="btn btn-outline" href="services.html" data-no-wa data-i18n="home.services.all">
+              Découvrir tous les services
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= AVANTAGES ================= -->
+      <section class="section section--white">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <p class="eyebrow" data-i18n="home.benefits.eyebrow">Pourquoi nous choisir</p>
+            <h2 data-i18n="home.benefits.title">Un séjour sans mauvaise surprise</h2>
+            <p data-i18n="home.benefits.subtitle">
+              Tarifs lisibles, services inclus clairement annoncés et une équipe
+              joignable à toute heure.
+            </p>
+            <hr class="rule" />
+          </div>
+          <div class="benefit-groups" data-home-benefits></div>
+        </div>
+      </section>
+
+      <!-- ================= TÉMOIGNAGES ================= -->
+      <section class="section section--navy">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <p class="eyebrow" data-i18n="home.testimonials.eyebrow">Avis</p>
+            <h2 data-i18n="home.testimonials.title">Ils ont séché chez nous</h2>
+            <p data-i18n="home.testimonials.subtitle">
+              Témoignages de démonstration, fournis uniquement pour illustrer le
+              contenu du site.
+            </p>
+            <hr class="rule" />
+          </div>
+          <div class="cards cards--tight" data-home-testimonials></div>
+          <p class="text-center" style="margin-top: var(--sp-5); font-size: var(--fs-xs)">
+            <span data-i18n="home.testimonials.demoNote">
+              Témoignages de démonstration, représentatifs mais non vérifiés.
+            </span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= RÉSERVATION ================= -->
+      <section class="cta-band" id="contact-quick">
+        <div class="container cta-band__inner">
+          <div>
+<p class="eyebrow" data-i18n="home.cta.eyebrow">Réservation</p>
+            <h2 data-i18n="home.cta.title">Votre chambre vous attend</h2>
+            <p data-i18n="home.cta.subtitle">
+              Choisissez votre chambre, préparez votre demande en quelques secondes
+              et envoyez-la directement sur WhatsApp. L&rsquo;hôtel vous répond pour
+              confirmer les disponibilités et le tarif final.
+            </p>
+            <ol class="steps">
+              <li>
+                <h3 data-i18n="home.cta.step1">Choisissez une chambre</h3>
+                <p data-i18n="home.cta.step1Text">
+                  Parcourez les douze chambres, comparez les équipements et les tarifs
+                  en FCFA.
+                </p>
+              </li>
+              <li>
+                <h3 data-i18n="home.cta.step2">Indiquez vos dates et le nombre de clients</h3>
+                <p data-i18n="home.cta.step2Text">
+                  Le site calcule le nombre de nuits et le total estimé de votre séjour.
+                </p>
+              </li>
+              <li>
+                <h3 data-i18n="home.cta.step3">Envoyez votre demande sur WhatsApp</h3>
+                <p data-i18n="home.cta.step3Text">
+                  La demande s&rsquo;ouvre dans WhatsApp : il ne reste qu&rsquo;à
+                  l&rsquo;envoyer à l&rsquo;hôtel.
+                </p>
+              </li>
+            </ol>
+            <p style="margin-top: var(--sp-4); font-size: var(--fs-xs); color: rgba(247,244,238,.6)">
+              <span data-i18n="home.cta.note">
+                Aucune réservation n&rsquo;est garantie avant confirmation écrite de
+                l&rsquo;hôtel.
+              </span>
+            </p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn-gold btn-lg" href="rooms.html" data-no-wa data-i18n="home.hero.cta1">
+              Voir les chambres
+            </a>
+            <a class="btn btn-outline btn-lg" href="#" data-wa-generic target="_blank" rel="noopener noreferrer" data-i18n="common.inquireWa">
+              Écrire sur WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <div id="wa-root"></div>
+    <div id="modal-root"></div>
+
+    <noscript>
+      <div class="container" style="padding: var(--sp-5) 0">
+        <div class="notice">
+          <p class="notice__title">JavaScript est nécessaire</p>
+          <p>
+            Ce site utilise JavaScript pour la réservation par WhatsApp et la
+            traduction français / anglais. Activez JavaScript dans votre
+            navigateur pour utiliser toutes les fonctionnalités.
+          </p>
+        </div>
+      </div>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chambre — Royal Guest Garden Yaoundé</title>
+    <meta
+      name="description"
+      content="Détail d'une chambre du Royal Guest Garden à Yaoundé : équipements, surface, tarifs en FCFA, services inclus et réservation immédiate via WhatsApp."
+    />
+    <meta name="theme-color" content="#1a1a2e" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a2e'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='18' fill='%23d4a853' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E"
+    />
+
+    <script src="js/config.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/helpers.js" defer></script>
+    <script src="js/icons.js" defer></script>
+    <script src="js/cards.js" defer></script>
+    <script src="js/whatsapp.js" defer></script>
+    <script src="js/layout.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/booking.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/page-room-detail.js" defer></script>
+  </head>
+
+  <body data-page="room">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Aller au contenu principal</a>
+
+    <div id="site-header"></div>
+
+    <main id="main" data-room-root>
+      <section class="section section--cream">
+        <div class="container">
+          <div class="empty-state">
+            <span class="empty-state__icon" data-icon="bed"></span>
+            <h3 data-i18n="room.notFoundTitle">Chambre introuvable</h3>
+            <p data-i18n="room.notFoundText">
+              Cette chambre n'existe pas ou le lien est incorrect. Parcourez le
+              catalogue pour choisir votre hébergement.
+            </p>
+            <a class="btn btn-outline" href="rooms.html" data-no-wa data-i18n="common.backRooms">
+              Voir toutes les chambres
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <div id="wa-root"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>

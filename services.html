@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services et équipements — Royal Guest Garden Yaoundé</title>
+    <meta
+      name="description"
+      content="Restaurant, bar, piscine, salle de conférence et tennis au Royal Guest Garden, hôtel 4 étoiles à Yaoundé. Tarifs et horaires de chaque service."
+    />
+    <meta name="theme-color" content="#1a1a2e" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a2e'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='18' fill='%23d4a853' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E"
+    />
+
+    <script src="js/config.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/helpers.js" defer></script>
+    <script src="js/icons.js" defer></script>
+    <script src="js/cards.js" defer></script>
+    <script src="js/whatsapp.js" defer></script>
+    <script src="js/layout.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/booking.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/page-services.js" defer></script>
+  </head>
+
+  <body data-page="services">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Aller au contenu principal</a>
+
+    <div id="site-header"></div>
+
+    <main id="main">
+      <section class="hero hero--compact">
+        <img
+          class="hero__media"
+          src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
+          alt="Salon du restaurant de l'hôtel"
+          width="1600"
+          height="900"
+          fetchpriority="high"
+        />
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__badge">
+              <span data-i18n="services.badge">6 services</span>
+            </p>
+            <h1 class="hero__title" data-i18n="services.hero.title">Nos services</h1>
+            <p class="hero__text" data-i18n="services.hero.subtitle">
+              Tout ce dont vous avez besoin pendant votre séjour : restauration,
+              piscine, salles de réunion et terrains de tennis, avec des horaires
+              et des tarifs clairs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cream">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="services.practical">Informations pratiques</p>
+            <h2 data-i18n="home.services.title">Hébergement et services</h2>
+            <p data-i18n="home.services.subtitle">
+              Restaurant, bar, piscine, salle de sport, terrains de tennis et salles
+              de réunion : tout est prévu sur le même site.
+            </p>
+            <hr class="rule" />
+          </div>
+          <div data-services-list></div>
+        </div>
+      </section>
+
+      <section class="section section--white">
+        <div class="container two-col">
+          <div class="panel">
+            <h2 class="panel__title" data-i18n="services.hours">Horaires</h2>
+            <table class="hours-table" data-services-hours>
+              <caption class="visually-hidden">Horaires des services</caption>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="panel">
+            <h2 class="panel__title" data-i18n="services.pricing">Tarifs indicatifs</h2>
+            <p data-i18n="services.pricingNote">
+              Tarifs indicatifs en FCFA, susceptibles de varier selon la prestation, la
+              saison et le nombre de personnes.
+            </p>
+            <ul class="service-badges" data-services-legend></ul>
+            <p class="form-note" data-i18n="services.quoteOnly">
+              Sur devis uniquement — nous vous répondons sous 24 h ouvrées.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container cta-band__inner">
+          <div>
+            <h2 data-i18n="services.cta.title">Une question sur l'un de nos services ?</h2>
+            <p data-i18n="services.cta.text">
+              Écrivez-nous sur WhatsApp : nous répondons généralement en quelques
+              minutes pendant nos heures d'ouverture.
+            </p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn-gold btn-lg" href="#" data-wa-generic target="_blank" rel="noopener noreferrer" data-i18n="common.inquireWa">
+              Écrire sur WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <div id="wa-root"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>
