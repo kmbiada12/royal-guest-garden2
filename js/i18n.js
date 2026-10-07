@@ -108,11 +108,11 @@
        ===================================================================== */
       'home.metaTitle': 'Hôtel à Yaoundé — Royal Guest Garden',
       'home.metaDesc':
-        'Royal Guest Garden, hôtel 4 étoiles à Yaoundé, Rue Hippodrome. Confort, élégance & sérénité : chambres à partir de 20 000 FCFA la nuit, restaurant, piscine, tennis. Réservation via WhatsApp.',
+        'Royal Guest Garden, hôtel 4 étoiles à Yaoundé, Rue Hippodrome. Confort, élégance & sérénité : chambres à partir de 50 000 FCFA la nuit, restaurant, piscine, tennis. Réservation via WhatsApp.',
       'home.badge': 'Hôtel 4 étoiles · Yaoundé, Rue Hippodrome',
       'home.hero.title': 'Confort, élégance & sérénité',
       'home.hero.subtitle':
-        'À deux pas du centre administratif de Yaoundé, le Royal Guest Garden accueille des clients d\'affaires, des couples et des familles dans un cadre calme et soigné. Douze chambres à partir de 20 000 FCFA la nuit.',
+        'À deux pas du centre administratif de Yaoundé, le Royal Guest Garden accueille des clients d\'affaires, des couples et des familles dans un cadre calme et soigné. Douze chambres à partir de 50 000 FCFA la nuit.',
       'home.hero.imageAlt': 'Hall d\'accueil du Royal Guest Garden à Yaoundé',
       'home.hero.cta1': 'Découvrir nos chambres',
       'home.hero.cta2': 'Réserver via WhatsApp',
@@ -152,7 +152,7 @@
       'home.testimonials.eyebrow': 'Avis de clients',
       'home.testimonials.title': 'Ce que disent nos clients',
       'home.testimonials.subtitle':
-        'Témoignages de démonstration, fournis uniquement pour illustrer le contenu du site.',
+        'Témoignages de démonstration.',
       'home.testimonials.demoNote':
         'Témoignages exemples : ces avis sont fictifs et servent uniquement à démontrer la mise en page.',
 
@@ -177,11 +177,11 @@
        ===================================================================== */
       'rooms.metaTitle': 'Nos chambres — Royal Guest Garden Yaoundé',
       'rooms.metaDesc':
-        'Catalogue des 12 chambres et suites du Royal Guest Garden à Yaoundé : Standard, Supérieure, Deluxe, Suite et Familiale, de 20 000 à 150 000 FCFA la nuit. Réservation via WhatsApp.',
+        'Catalogue des 12 chambres et suites du Royal Guest Garden à Yaoundé : Standard, Supérieure, Deluxe, Suite et Familiale, de 50 000 à 150 000 FCFA la nuit. Réservation via WhatsApp.',
       'rooms.badge': '12 chambres et suites',
       'rooms.hero.title': 'Nos chambres',
       'rooms.hero.subtitle':
-        'Douze chambres et suites nommées d\'après les quartiers de Yaoundé, de 20 000 à 150 000 FCFA la nuit. Filtrez selon votre budget, votre nombre de clients et vos équipements préférés.',
+        'Douze chambres et suites nommées d\'après les quartiers de Yaoundé, de 50 000 à 150 000 FCFA la nuit. Filtrez selon votre budget, votre nombre de clients et vos équipements préférés.',
       'rooms.hero.imageAlt': 'Chambre de l\'hôtel Royal Guest Garden',
 
       'rooms.filters.title': 'Filtrer les chambres',
@@ -724,7 +724,7 @@
       'home.badge': '4-star hotel · Yaoundé, Rue Hippodrome',
       'home.hero.title': 'Comfort, elegance & serenity',
       'home.hero.subtitle':
-        'A short walk from the administrative centre of Yaoundé, Royal Guest Garden welcomes business travellers, couples and families in a calm, well-kept setting. Twelve rooms from 20,000 FCFA per night.',
+        'A short walk from the administrative centre of Yaoundé, Royal Guest Garden welcomes business travellers, couples and families in a calm, well-kept setting. Twelve rooms from 50,000 FCFA per night.',
       'home.hero.imageAlt': 'Reception hall of Royal Guest Garden in Yaoundé',
       'home.hero.cta1': 'Discover our rooms',
       'home.hero.cta2': 'Book via WhatsApp',
@@ -762,9 +762,9 @@
       'home.benefits.subtitle': 'Six concrete reasons, verifiable from the moment you arrive.',
 
       'home.testimonials.eyebrow': 'Guest reviews',
-      'home.testimonials.title': 'What our travellers say',
+      'home.testimonials.title': 'What our customers say',
       'home.testimonials.subtitle':
-        'Sample testimonials, provided solely to illustrate the layout of this website.',
+        'Demonstration testimonials.',
       'home.testimonials.demoNote':
         'Sample testimonials: these reviews are fictional and are used only to demonstrate the layout.',
 

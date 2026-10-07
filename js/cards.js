@@ -73,12 +73,6 @@
         return '<li class="tag">' + H.escapeHtml(H.amenityLabel(id)) + '</li>';
       })
       .join('');
-    if (room.amenities.length > maxAmenities) {
-      amenityItems +=
-        '<li class="tag tag-ref">' +
-        H.escapeHtml(t('card.amenitiesMore', { n: room.amenities.length - maxAmenities })) +
-        '</li>';
-    }
 
     return (
       '<article class="card">' +
