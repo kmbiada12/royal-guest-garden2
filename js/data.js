@@ -1,7 +1,7 @@
 /* =========================================================================
    Royal Guest Garden — Données de démonstration
    -------------------------------------------------------------------------
-   12 chambres / catégories, les services de l'hôtel, les équipements,
+   10 chambres / catégories, les services de l'hôtel, les équipements,
    les témoignages exemples, les avantages, les valeurs et l'équipe.
 
    ⚠  CONTENU DE DÉMONSTRATION : tous les textes, tarifs, disponibilités
@@ -616,72 +616,6 @@
     },
 
     {
-      id: 'bastos',
-      ref: 'RGG-09',
-      name: 'Bastos',
-      category: 'deluxe',
-      price: 75000,
-      capacity: 4,
-      beds: {
-        fr: '1 lit king size 180 × 200 cm + 2 lits simples 90 × 190 cm',
-        en: '1 king size bed 180 × 200 cm + 2 single beds 90 × 190 cm'
-      },
-      size: 48,
-      floor: { fr: '6ᵉ étage, aile panoramique', en: '6th floor, panoramic wing' },
-      view: { fr: 'Vue à 360° sur Yaoundé et les monts', en: '360° view over Yaoundé and the surrounding hills' },
-      short: {
-        fr: 'Notre Deluxe signature : deux chambres, deux salles de bain, un salon d\'angle et la meilleure vue de l\'hôtel.',
-        en: 'Our signature Deluxe: two bedrooms, two bathrooms, a corner lounge and the best view in the hotel.'
-      },
-      description: {
-        fr: 'Bastos occupe l\'angle sud-ouest du bâtiment, ce qui lui offre une lumière exceptionnelle tout l\'après-midi. Deux chambres climatisées, chacune avec sa propre salle de bain, l\'une avec baignoire et l\'autre avec douche à jets. Le salon d\'angle, composé de deux canapés et d\'assises basses, devient un espace de réception agréable pour un dîner d\'affaires informel. La chambre principale dispose d\'un dressing complet. Nous la recommandons aux couples en voyage prolongé et aux familles accompagnées d\'aînés.',
-        en: 'Bastos occupies the south-west corner of the building, giving it exceptional light all afternoon. Two air-conditioned bedrooms, each with its own bathroom — one with a bathtub, the other with a rainfall shower. The corner lounge, seating two sofas and low chairs, becomes a pleasant setting for an informal business dinner. The master bedroom has a full walk-in dressing room. We recommend it to couples on extended trips and to families travelling with elderly relatives.'
-      },
-      amenities: [
-        'climatisation',
-        'eau-chaude',
-        'tv-satellite',
-        'tv-55',
-        'wifi',
-        'salon',
-        'balcon',
-        'cuisine-equipee',
-        'vue-jardin',
-        'lumineuse',
-        'placards',
-        'minibar',
-        'baignoire',
-        'bureau',
-        'piscine',
-        'coffret',
-        'coffre-fort',
-        'seche-cheveux',
-        'bouilloire',
-        'machine-a-laver',
-        'parking',
-        'securite-24'
-      ],
-      images: [u('1560185008-b033106af5c3'), u('1522708323590-d24dbb6b0267'), u('1631049552240-59c37f38802b')],
-      breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché pour deux personnes.',
-        en: 'Buffet breakfast included in the displayed rate for two guests.'
-      },
-      taxes: {
-        included: true,
-        note: {
-          fr: 'Taxes de séjour et TVA (19,25 %) incluses dans le tarif affiché.',
-          en: 'City tax and VAT (19.25%) included in the displayed rate.'
-        }
-      },
-      cancellation: {
-        fr: 'Annulation gratuite jusqu\'à 48 h avant l\'arrivée.',
-        en: 'Free cancellation up to 48 h before arrival.'
-      },
-      featured: false
-    },
-
-    {
       id: 'laakam',
       ref: 'RGG-10',
       name: 'Laakam',
@@ -763,72 +697,6 @@
         en: 'Free cancellation until 48 h before arrival, up to 7 days for stays longer than 5 nights.'
       },
       featured: true
-    },
-
-    {
-      id: 'nkolbisson',
-      ref: 'RGG-11',
-      name: 'Nkolbisson',
-      category: 'suite',
-      price: 110000,
-      capacity: 4,
-      beds: {
-        fr: '1 lit king size 200 × 200 cm + 1 lit double 160 × 200 cm',
-        en: '1 king size bed 200 × 200 cm + 1 double bed 160 × 200 cm'
-      },
-      size: 65,
-      floor: { fr: '7ᵉ étage, aile prestige', en: '7th floor, prestige wing' },
-      view: { fr: 'Vue panoramique sur la ville et les monts', en: 'Panoramic view over the city and the hills' },
-      short: {
-        fr: 'Une suite de 65 m² avec salon séparé, salle à manger et salle de bain avec baignoire.',
-        en: 'A 65 m² suite with a separate lounge, dining area and bathroom with bathtub.'
-      },
-      description: {
-        fr: 'La suite Nkolbisson se déploie sur 65 m² et s\'organise en trois espaces distincts : le salon d\'entrée avec bibliothèque, le salon de séjour avec canapé d\'angle et la chambre à coucher séparée par un couloir. Une table de quatre couverts permet de recevoir un client ou un partenaire pour un petit-déjeuner d\'affaires. La salle de bain en marbre comporte une baignoire îlot, une douche à l\'italienne et un double vasque. Le salon est en outre équipé d\'une TV 55 pouces et d\'un système audio. Terrasse privative de 12 m² orientée sud-est.',
-        en: 'The Nkolbisson suite spans 65 m² and is organised into three distinct spaces: an entrance lounge with a bookshelf, a sitting room with a corner sofa and a bedroom separated by a corridor. A four-cover dining table makes it possible to host a client or partner for a business breakfast. The marble bathroom features an island bathtub, a rainfall shower and a double basin. The lounge is also fitted with a 55-inch TV and an audio system. Private 12 m² south-east facing terrace.'
-      },
-      amenities: [
-        'climatisation',
-        'eau-chaude',
-        'tv-satellite',
-        'tv-55',
-        'wifi',
-        'salon',
-        'balcon',
-        'cuisine-equipee',
-        'vue-jardin',
-        'lumineuse',
-        'placards',
-        'minibar',
-        'baignoire',
-        'bureau',
-        'piscine',
-        'coffret',
-        'coffre-fort',
-        'seche-cheveux',
-        'bouilloire',
-        'machine-a-laver',
-        'parking',
-        'securite-24'
-      ],
-      images: [u('1615460549969-36fa19521a4f'), u('1610641818989-c2051b5e2cfd'), u('1559599189-fe84dea4eb79')],
-      breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché pour deux personnes, service en chambre disponible sur demande.',
-        en: 'Buffet breakfast included in the displayed rate for two guests; in-room service available on request.'
-      },
-      taxes: {
-        included: true,
-        note: {
-          fr: 'Taxes de séjour et TVA (19,25 %) incluses dans le tarif affiché.',
-          en: 'City tax and VAT (19.25%) included in the displayed rate.'
-        }
-      },
-      cancellation: {
-        fr: 'Annulation gratuite jusqu\'à 72 h avant l\'arrivée. Acompte de 50 % demandé pour les séjours de plus de 3 nuits.',
-        en: 'Free cancellation until 72 h before arrival. A 50% deposit is required for stays longer than 3 nights.'
-      },
-      featured: false
     },
 
     {
@@ -928,8 +796,8 @@
       image: 'img/hebergement.png',
       title: { fr: 'Hébergement', en: 'Accommodation' },
       short: {
-        fr: '12 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
-        en: '12 rooms and suites spread over seven floors, with unobstructed views over the city and the landscaped garden.'
+        fr: '10 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
+        en: '10 rooms and suites spread over seven floors, with unobstructed views over the city and the landscaped garden.'
       },
       details: [
         {
@@ -960,8 +828,8 @@
       pricing: {
         included: 'partial',
         note: {
-          fr: 'La chambre et les services listés sont inclus dans le tarif de la chambre. Le petit-déjeuner est inclus dans certaines chambres (Waza, Ntem, Febe, Mont Cameroun, Dja, Bastos, Nkolbisson, Oku) et en option pour les autres.',
-          en: 'The room and the listed services are included in the room rate. Breakfast is included in certain rooms (Waza, Ntem, Febe, Mount Cameroon, Dja, Bastos, Nkolbisson, Oku) and optional for the others.'
+          fr: 'La chambre et les services listés sont inclus dans le tarif de la chambre. Le petit-déjeuner est inclus dans certaines chambres (Waza, Ntem, Febe, Mont Cameroun, Dja, Oku) et en option pour les autres.',
+          en: 'The room and the listed services are included in the room rate. Breakfast is included in certain rooms (Waza, Ntem, Febe, Mount Cameroon, Dja, Oku) and optional for the others.'
         },
         items: [
           { label: { fr: 'Chambre à partir de', en: 'Room from' }, price: 20000 },

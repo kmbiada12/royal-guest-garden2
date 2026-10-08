@@ -23,3 +23,15 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/kmbiada12/royal-guest-garden2.git
 git push -u origin main
+
+
+//-----------------
+superbase: 
+
+database: Royal-guest-hotel password : 94XKxurNsv9Qk3QL  
+
+
+https://www.google.com/search?q=apres+avoir+cr%C3%A9er+mon+site%2C+me+dire+comment+faire+pour+cr%C3%A9er+le+backend+en+utilisant+superbase&oq=apres+avoir+cr%C3%A9er+mon+site%2C+me+dire+comment+faire+pour+cr%C3%A9er+le+backend+en+utilisant+superbase&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTIwNzQ3ajBqN6gCCLACAfEF5clwPzdf3h8&sourceid=chrome&source=chrome.ob&ie=UTF-8
+
+
+https://codingclubhaiti.com/training/lovable-supabase-creer-un-espace-d-administration-backend-pour-gerer-l-ensemble-de-votre-site-web/26/139 

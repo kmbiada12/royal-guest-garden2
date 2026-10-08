@@ -2,7 +2,7 @@
    Royal Guest Garden — Script de la fiche chambre
    -------------------------------------------------------------------------
    La chambre est identifiée par le paramètre d'URL ?id=…
-   (par exemple room.html?id=nkolbisson). Si l'identifiant est absent ou
+   (par exemple room.html?id=laakam). Si l'identifiant est absent ou
    inconnu, la page affiche un message d'erreur et un lien vers le catalogue.
    ========================================================================= */
 
