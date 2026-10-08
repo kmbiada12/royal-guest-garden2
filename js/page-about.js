@@ -103,7 +103,10 @@
     if (window.RGG) window.RGG.onLanguageChange(render);
   }
 
-  if (document.readyState === 'loading') {
+  /* Premier rendu une fois le contenu chargé (Supabase ou statique). */
+  if (window.RGG_ON_READY) {
+    window.RGG_ON_READY(init);
+  } else if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();

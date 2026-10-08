@@ -96,7 +96,7 @@
         'climatisation',
         'tv-satellite',
         'cuisine-equipee',
-        'salon-confortable',
+        'salon',
         'placards',
         'lumineuse'
       ],
