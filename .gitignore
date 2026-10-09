@@ -1,0 +1,16 @@
+# Dépendances et sorties de build
+node_modules/
+.vercel-static/
+
+# Fichiers d'environnement réels (les .env.example/.env.development restent suivis)
+.env
+.env.local
+.env.*.local
+
+# Supabase local (runtime)
+supabase/.branches/
+supabase/.temp/
+
+# Système
+.DS_Store
+Thumbs.db

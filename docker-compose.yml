@@ -1,0 +1,25 @@
+# Royal Guest Garden — site public en local
+#
+#   supabase start                    # base de données (conteneurs Supabase)
+#   docker compose up -d --build      # site → http://localhost:3003
+#
+# Ou simplement : .\start-local.ps1
+name: royal-guest-garden2
+
+services:
+  web:
+    build: .
+    image: royal-guest-garden2-web
+    container_name: rgg2-web
+    ports:
+      - "127.0.0.1:3003:80"
+    restart: unless-stopped
+
+  # Back-office → http://localhost:3004
+  admin:
+    build: ./admin
+    image: royal-guest-garden2-admin
+    container_name: rgg2-admin
+    ports:
+      - "127.0.0.1:3004:80"
+    restart: unless-stopped
