@@ -85,7 +85,7 @@
 
       'footer.tagline': 'Confort, élégance & sérénité',
       'footer.about':
-        'Hôtel 4 étoiles à Yaoundé, Rue Hippodrome. Dix chambres et suites, un restaurant, un bar, une piscine et un court de tennis.',
+        'Hôtel 4 étoiles à Yaoundé, dernière rue Hippodrome. Dix chambres et suites, un restaurant, un bar, une piscine et un court de tennis.',
       'footer.nav': 'Navigation',
       'footer.contact': 'Contact',
       'footer.hours': 'Horaires',
@@ -108,11 +108,11 @@
        ===================================================================== */
       'home.metaTitle': 'Hôtel à Yaoundé — Royal Guest Garden',
       'home.metaDesc':
-        'Royal Guest Garden, hôtel 4 étoiles à Yaoundé, Rue Hippodrome. Neuf chambres à partir de 50 000 FCFA la nuit, restaurant, piscine et tennis. Réservation via WhatsApp.',
-      'home.badge': 'Hôtel 4 étoiles · Yaoundé, Rue Hippodrome',
+        'Royal Guest Garden, hôtel 4 étoiles à Yaoundé, dernière rue Hippodrome. Dix chambres à partir de 50 000 FCFA la nuit, restaurant, piscine et tennis. Réservation via WhatsApp.',
+      'home.badge': 'Hôtel 4 étoiles · Yaoundé, dernière rue Hippodrome',
       'home.hero.title': 'Confort, élégance & sérénité',
       'home.hero.subtitle':
-        'À deux pas du centre administratif de Yaoundé, le Royal Guest Garden accueille des clients d\'affaires, des couples et des familles dans un cadre calme et soigné. Neuf chambres à partir de 50 000 FCFA la nuit.',
+        'Au bout de la dernière rue Hippodrome, à un peu plus d’un kilomètre du centre administratif de Yaoundé, le Royal Guest Garden accueille des clients d\'affaires, des couples et des familles dans un cadre calme et soigné. Dix chambres à partir de 50 000 FCFA la nuit.',
       'home.hero.imageAlt': 'Hall d\'accueil du Royal Guest Garden à Yaoundé',
       'home.hero.cta1': 'Découvrir nos chambres',
       'home.hero.cta2': 'Réserver via WhatsApp',
@@ -126,9 +126,9 @@
       'home.intro.eyebrow': 'Bienvenue',
       'home.intro.title': 'Un hôtel de ville qui connaît l\'hospitalité camerounaise',
       'home.intro.p1':
-        'Le Royal Guest Garden est un hôtel de quatre étoiles situé rue Hippodrome, à Yaoundé. Derrière sa façade sobre, l\'hôtel déploie neuf chambres et suites réparties sur sept étages, un restaurant de cuisine camerounaise et internationale, un bar ouvert tard le soir, une piscine de vingt mètres dans un jardin tropical et un court de tennis en terre battue.',
+        'Le Royal Guest Garden est un hôtel de quatre étoiles situé à la dernière rue Hippodrome, à Yaoundé. Derrière sa façade sobre, l\'hôtel déploie dix chambres et suites réparties sur sept étages, un restaurant de cuisine camerounaise et internationale, un bar ouvert tard le soir, une piscine de vingt mètres dans un jardin tropical et un court de tennis en terre battue.',
       'home.intro.p2':
-        'Chaque chambre porte le nom d\'un lieu ou d\'un quartier du coin — Waza, Mouessi, Ntem, Febe, Lobe, Oku, Laakam. Ce n\'est pas un folklore : c\'est une façon de rappeler que l\'hôtel appartient à son quartier et que chaque client est attendu comme un voisin.',
+        'Plusieurs chambres portent le nom d\'un lieu ou d\'un quartier du coin — Waza, Mouessi, Ntem, Febe, Lobe, Oku, Laakam — et No NAME complète la collection avec un nom à part. C\'est une façon de rappeler que l\'hôtel appartient à son quartier et que chaque client est attendu comme un voisin.',
       'home.intro.p3':
         'Notre équipe est disponible en permanence, la réception est ouverte 24 h/24, et chaque demande de réservation est traitée directement sur WhatsApp, avec un interlocuteur identifié.',
       'home.intro.cta': 'En savoir plus sur l\'hôtel',
@@ -137,7 +137,7 @@
       'home.featured.title': 'Chambres mises en avant',
       'home.featured.subtitle':
         'Découvrez nos Chambres simples, Suites Juniors, Suites Seniors et suites VVIP.',
-      'home.featured.all': 'Voir les 9 chambres',
+      'home.featured.all': 'Voir les 10 chambres',
 
       'home.services.eyebrow': 'Nos services',
       'home.services.title': 'Tout sur place, du petit-déjeuner au court de tennis',
@@ -164,7 +164,7 @@
       'home.cta.step2': 'Indiquez vos dates et le nombre de clients',
       'home.cta.step3': 'Envoyez votre demande sur WhatsApp',
       'home.cta.step1Text':
-        'Parcourez les neuf chambres, comparez les équipements et les tarifs en FCFA.',
+        'Parcourez les dix chambres, comparez les équipements et les tarifs en FCFA.',
       'home.cta.step2Text':
         'Le site calcule le nombre de nuits et le total estimé de votre séjour.',
       'home.cta.step3Text':
@@ -177,11 +177,11 @@
        ===================================================================== */
       'rooms.metaTitle': 'Nos chambres — Royal Guest Garden Yaoundé',
       'rooms.metaDesc':
-        'Catalogue des 9 chambres du Royal Guest Garden à Yaoundé : Chambres simples à 50 000 FCFA, Suites Juniors à 70 000 ou 80 000 FCFA, Suites Seniors à 100 000 FCFA et VVIP à 150 000 FCFA la nuit. Réservation via WhatsApp.',
-      'rooms.badge': '9 chambres et suites',
+        'Catalogue des 10 chambres du Royal Guest Garden à Yaoundé, dont No NAME à 50 000 FCFA la nuit. Réservation via WhatsApp.',
+      'rooms.badge': '10 chambres et suites',
       'rooms.hero.title': 'Nos chambres',
       'rooms.hero.subtitle':
-        'Neuf chambres et suites nommées d\'après les quartiers de Yaoundé. Filtrez selon votre budget, votre nombre de clients et vos équipements préférés.',
+        'Dix chambres et suites, dont No NAME. Filtrez selon votre budget, votre nombre de clients et vos équipements préférés.',
       'rooms.hero.imageAlt': 'Chambre de l\'hôtel Royal Guest Garden',
 
       'rooms.filters.title': 'Filtrer les chambres',
@@ -356,10 +356,10 @@
       'about.metaTitle': 'À propos — Royal Guest Garden Yaoundé',
       'about.metaDesc':
         'Découvrez le Royal Guest Garden, hôtel 4 étoiles à Yaoundé : notre atmosphère, nos valeurs, notre emplacement et l\'expérience réservée à chaque type de client.',
-      'about.badge': 'Hôtel 4 étoiles · Depuis la rue Hippodrome',
+      'about.badge': 'Hôtel 4 étoiles · Dernière rue Hippodrome',
       'about.hero.title': 'À propos du Royal Guest Garden',
       'about.hero.subtitle':
-        'Un hôtel de ville élégant et accueillant, au cœur des collines de Yaoundé, à deux pas du centre administratif et à six kilomètres de l\'aéroport.',
+        'Un hôtel de ville élégant et accueillant, au bout de la dernière rue Hippodrome, à un peu plus d’un kilomètre du centre administratif et à six kilomètres de l\'aéroport.',
       'about.hero.imageAlt': 'Façade de l\'hôtel Royal Guest Garden',
 
       'about.story.eyebrow': 'Notre histoire',
@@ -379,9 +379,9 @@
         'L\'accueil est chaleureux et l\'atmosphère propice au repos. Profitez du petit-déjeuner, d\'une chambre confortable et d\'un cadre calme pour vous sentir chez vous, à 1 200 kilomètres de chez vous.',
 
       'about.location.eyebrow': 'Emplacement',
-      'about.location.title': 'Rue Hippodrome, Yaoundé',
+      'about.location.title': 'Dernière rue Hippodrome, Yaoundé',
       'about.location.text':
-        'Un quartier résidentiel calme, proche des ministères et du centre administratif, et à quelques minutes de l\'aéroport international de Yaoundé-Nsimalen. Le restaurant, le marché central Akea et les principales attractions de la ville sont accessibles en quelques minutes.',
+        'L\'hôtel se trouve au bout de la dernière rue Hippodrome, dans un quartier résidentiel calme, à un peu plus d’un kilomètre des ministères et du centre administratif, et à environ six kilomètres de l\'aéroport international de Yaoundé-Nsimalen.',
       'about.location.map': 'Voir l\'emplacement sur Google Maps',
       'about.location.landmarks': 'À proximité',
 
@@ -422,8 +422,8 @@
        ===================================================================== */
       'contact.metaTitle': 'Contact et accès — Royal Guest Garden Yaoundé',
       'contact.metaDesc':
-        'Adresse, téléphone, email, horaires et plan d\'accès du Royal Guest Garden, rue Hippodrome, Yaoundé. Contact WhatsApp et formulaire de demande.',
-      'contact.badge': 'Yaoundé · Rue Hippodrome',
+        'Adresse, téléphone, email, horaires et plan d\'accès du Royal Guest Garden, dernière rue Hippodrome, Yaoundé. Contact WhatsApp et formulaire de demande.',
+      'contact.badge': 'Yaoundé · Dernière rue Hippodrome',
       'contact.hero.title': 'Contact et accès',
       'contact.hero.subtitle':
         'Notre réception est ouverte 24 h/24. Pour une réservation rapide, la voie la plus directe est WhatsApp.',
@@ -686,7 +686,7 @@
 
       'footer.tagline': 'Comfort, elegance & serenity',
       'footer.about':
-        'A 4-star hotel in Yaoundé, Rue Hippodrome. Nine rooms and suites, a restaurant, a bar, a pool and a tennis court.',
+        'A 4-star hotel in Yaoundé, at the end of Hippodrome Road. Ten rooms and suites, a restaurant, a bar, a pool and a tennis court.',
       'footer.nav': 'Navigation',
       'footer.contact': 'Contact',
       'footer.hours': 'Opening hours',
@@ -706,11 +706,11 @@
 
       'home.metaTitle': 'Hotel in Yaoundé — Royal Guest Garden',
       'home.metaDesc':
-        'Royal Guest Garden, a 4-star hotel in Yaoundé, Rue Hippodrome. Nine rooms from 50,000 FCFA per night, restaurant, pool and tennis. Book via WhatsApp.',
-      'home.badge': '4-star hotel · Yaoundé, Rue Hippodrome',
+        'Royal Guest Garden, a 4-star hotel in Yaoundé, at the end of Hippodrome Road. Ten rooms from 50,000 FCFA per night, restaurant, pool and tennis. Book via WhatsApp.',
+      'home.badge': '4-star hotel · Yaoundé, at the end of Hippodrome Road',
       'home.hero.title': 'Comfort, elegance & serenity',
       'home.hero.subtitle':
-        'A short walk from the administrative centre of Yaoundé, Royal Guest Garden welcomes business travellers, couples and families in a calm, well-kept setting. Nine rooms from 50,000 FCFA per night.',
+        'At the end of Hippodrome Road, a little over one kilometre from Yaoundé\'s administrative centre, Royal Guest Garden welcomes business travellers, couples and families in a calm, well-kept setting. Ten rooms from 50,000 FCFA per night.',
       'home.hero.imageAlt': 'Reception hall of Royal Guest Garden in Yaoundé',
       'home.hero.cta1': 'Discover our rooms',
       'home.hero.cta2': 'Book via WhatsApp',
@@ -724,9 +724,9 @@
       'home.intro.eyebrow': 'Welcome',
       'home.intro.title': 'A city hotel that knows Cameroonian hospitality',
       'home.intro.p1':
-        'Royal Guest Garden is a four-star hotel on Rue Hippodrome in Yaoundé. Behind its understated façade, the hotel offers nine rooms and suites over seven floors, a restaurant serving Cameroonian and international cuisine, a bar that stays open late, a twenty-metre pool in a tropical garden and a clay tennis court.',
+        'Royal Guest Garden is a four-star hotel at the end of Hippodrome Road in Yaoundé. Behind its understated façade, the hotel offers ten rooms and suites over seven floors, a restaurant serving Cameroonian and international cuisine, a bar that stays open late, a twenty-metre pool in a tropical garden and a clay tennis court.',
       'home.intro.p2':
-        'Every room is named after a place or a district nearby — Waza, Mouessi, Ntem, Febe, Lobe, Oku, Laakam. It is not folklore: it is a way of saying that the hotel belongs to its neighbourhood and that every traveller is expected like a neighbour.',
+        'Several rooms are named after nearby places and districts — Waza, Mouessi, Ntem, Febe, Lobe, Oku and Laakam — while No NAME adds a room with a name of its own. It is a way of saying that the hotel belongs to its neighbourhood and that every traveller is expected like a neighbour.',
       'home.intro.p3':
         'Our team is available around the clock, reception is open 24/7, and every booking request is handled directly on WhatsApp by a named member of staff.',
       'home.intro.cta': 'Learn more about the hotel',
@@ -735,7 +735,7 @@
       'home.featured.title': 'Featured rooms',
       'home.featured.subtitle':
         'Explore our Standard rooms, Junior Suites, Senior Suites and VVIP suite.',
-      'home.featured.all': 'See all 9 rooms',
+      'home.featured.all': 'See all 10 rooms',
 
       'home.services.eyebrow': 'Our services',
       'home.services.title': 'Everything on site, from breakfast to the tennis court',
@@ -762,7 +762,7 @@
       'home.cta.step2': 'Enter your dates and travellers',
       'home.cta.step3': 'Send your request on WhatsApp',
       'home.cta.step1Text':
-        'Browse the nine rooms and compare the facilities and the rates in FCFA.',
+        'Browse the ten rooms and compare the facilities and the rates in FCFA.',
       'home.cta.step2Text':
         'The website calculates the number of nights and the estimated total of your stay.',
       'home.cta.step3Text':
@@ -772,11 +772,11 @@
 
       'rooms.metaTitle': 'Our rooms — Royal Guest Garden Yaoundé',
       'rooms.metaDesc':
-        'The 9 rooms at Royal Guest Garden in Yaoundé: Standard rooms at 50,000 FCFA, Junior Suites at 70,000 or 80,000 FCFA, Senior Suites at 100,000 FCFA and VVIP at 150,000 FCFA per night. Book via WhatsApp.',
-      'rooms.badge': '9 rooms and suites',
+        'Explore all 10 rooms at Royal Guest Garden in Yaoundé, including No NAME at 50,000 FCFA per night. Book via WhatsApp.',
+      'rooms.badge': '10 rooms and suites',
       'rooms.hero.title': 'Our rooms',
       'rooms.hero.subtitle':
-        'Nine rooms and suites named after Yaoundé districts. Filter by budget, number of travellers and preferred amenities.',
+        'Ten rooms and suites, including No NAME. Filter by budget, number of travellers and preferred amenities.',
       'rooms.hero.imageAlt': 'A room at Royal Guest Garden',
 
       'rooms.filters.title': 'Filter the rooms',
@@ -943,10 +943,10 @@
       'about.metaTitle': 'About us — Royal Guest Garden Yaoundé',
       'about.metaDesc':
         'Discover Royal Guest Garden, a 4-star hotel in Yaoundé: our atmosphere, our values, our location and the experience we offer each type of traveller.',
-      'about.badge': '4-star hotel · On Rue Hippodrome',
+      'about.badge': '4-star hotel · At the end of Hippodrome Road',
       'about.hero.title': 'About Royal Guest Garden',
       'about.hero.subtitle':
-        'An elegant, welcoming city hotel in the hills of Yaoundé, a short walk from the administrative centre and six kilometres from the airport.',
+        'An elegant, welcoming city hotel at the end of Hippodrome Road in Yaoundé, a little over one kilometre from the administrative centre and six kilometres from the airport.',
       'about.hero.imageAlt': 'Façade of Royal Guest Garden',
 
       'about.story.eyebrow': 'Our story',
@@ -966,9 +966,9 @@
         'The welcome is warm and the atmosphere is restful. Enjoy breakfast, a comfortable room and a peaceful setting to feel at home, 1,200 kilometres from home.',
 
       'about.location.eyebrow': 'Location',
-      'about.location.title': 'Rue Hippodrome, Yaoundé',
+      'about.location.title': 'At the end of Hippodrome Road, Yaoundé',
       'about.location.text':
-        'A quiet residential district, close to the ministries and the administrative centre, and a few minutes from Yaoundé-Nsimalen International Airport. The restaurant, Akea Central Market and the city\'s main attractions are all within easy reach.',
+        'The hotel is at the end of Hippodrome Road, in a quiet residential district, a little over one kilometre from the ministries and administrative centre, and about six kilometres from Yaoundé-Nsimalen International Airport.',
       'about.location.map': 'View the location on Google Maps',
       'about.location.landmarks': 'Nearby',
 
@@ -1004,8 +1004,8 @@
 
       'contact.metaTitle': 'Contact & access — Royal Guest Garden Yaoundé',
       'contact.metaDesc':
-        'Address, phone, email, opening hours and directions for Royal Guest Garden, Rue Hippodrome, Yaoundé. WhatsApp contact and enquiry form.',
-      'contact.badge': 'Yaoundé · Rue Hippodrome',
+        'Address, phone, email, opening hours and directions for Royal Guest Garden, at the end of Hippodrome Road, Yaoundé. WhatsApp contact and enquiry form.',
+      'contact.badge': 'Yaoundé · At the end of Hippodrome Road',
       'contact.hero.title': 'Contact & access',
       'contact.hero.subtitle':
         'Our reception is open 24/7. For a quick booking, the fastest route is WhatsApp.',

@@ -1,7 +1,7 @@
 /* =========================================================================
    Royal Guest Garden — Données de démonstration
    -------------------------------------------------------------------------
-   9 chambres / catégories, les services de l'hôtel, les équipements,
+   10 chambres / catégories, les services de l'hôtel, les équipements,
    les témoignages exemples, les avantages, les valeurs et l'équipe.
 
    ⚠  CONTENU DE DÉMONSTRATION : tous les textes, tarifs, disponibilités
@@ -65,7 +65,7 @@
   ];
 
   /* ---------------------------------------------------------------------
-     9 CHAMBRES / CATÉGORIES
+     10 CHAMBRES / CATÉGORIES
      --------------------------------------------------------------------- */
   var ROOMS = [
     {
@@ -147,8 +147,8 @@
         en: 'The simplest and most affordable room in the house, with no compromise on cleanliness or comfort.'
       },
       description: {
-        fr: 'La chambre Lobe est notre chambre la plus accessible. Elle reste volontairement simple : un lit double confortable, un bureau de travail, une armoire et une salle d\'eau fonctionnelle avec eau chaude. Elle convient parfaitement aux clients qui cherchent un hébergement propre, calme et économique à deux pas du centre administratif. Le Wi-Fi fibre et la climatisation sont compris, comme dans toutes les chambres de l\'hôtel.',
-        en: 'The Lobe room is our most affordable room. It is deliberately simple: a comfortable double bed, a study desk, a wardrobe and a functional bathroom with hot water. It suits travellers looking for clean, quiet and affordable accommodation a short walk from the administrative centre. Fibre Wi-Fi and air conditioning are included, as in every room at the hotel.'
+        fr: 'La chambre Lobe est notre chambre la plus accessible. Elle reste volontairement simple : un lit double confortable, un bureau de travail, une armoire et une salle d\'eau fonctionnelle avec eau chaude. Elle convient parfaitement aux clients qui cherchent un hébergement propre, calme et économique à un peu plus d’un kilomètre du centre administratif. Le Wi-Fi fibre et la climatisation sont compris, comme dans toutes les chambres de l\'hôtel.',
+        en: 'The Lobe room is our most affordable room. It is deliberately simple: a comfortable double bed, a study desk, a wardrobe and a functional bathroom with hot water. It suits travellers looking for clean, quiet and affordable accommodation a little over one kilometre from the administrative centre. Fibre Wi-Fi and air conditioning are included, as in every room at the hotel.'
       },
       amenities: [
         'climatisation',
@@ -684,6 +684,51 @@
         en: 'Free cancellation until 72 h before arrival. A 50% deposit is required to confirm the stay.'
       },
       featured: true
+    },
+
+    {
+      id: 'no-name-2',
+      ref: 'RGG-13',
+      name: 'No NAME',
+      category: 'simple',
+      price: 50000,
+      // Capacity and size are temporary values to be confirmed with the hotel.
+      capacity: 2,
+      beds: {
+        fr: '1 lit double (à confirmer)',
+        en: '1 double bed (to be confirmed)'
+      },
+      size: 20,
+      floor: { fr: 'À confirmer', en: 'To be confirmed' },
+      view: { fr: 'À confirmer', en: 'To be confirmed' },
+      short: {
+        fr: 'Découvrez No NAME, un espace moderne et convivial conçu pour vous offrir une expérience agréable et reposante.',
+        en: 'Discover No NAME, a modern and welcoming space designed to make your stay enjoyable and restful.'
+      },
+      description: {
+        fr: 'Découvrez NO NAME, un espace moderne et convivial conçu pour vous offrir une expérience agréable et reposante. Profitez d\'un intérieur confortable, d\'une ambiance accueillante et de tout le nécessaire pour passer un séjour en toute sérénité.',
+        en: 'Discover NO NAME, a modern and welcoming space designed to offer you a pleasant and restful experience. Enjoy a comfortable interior, a welcoming atmosphere and everything you need for a truly peaceful stay.'
+      },
+      amenities: [],
+      images: [
+        'img/chambres/noname/noname.png',
+        'img/chambres/noname/Sunlit cane-headboard hotel room-2.png',
+        'img/chambres/noname/Classic bedside table in warm daylight-3.png',
+        'img/chambres/noname/Luxury hotel TV console detail-4.png',
+        'img/chambres/noname/Luxury hotel desk beside grey curtains-5.png',
+        'img/chambres/noname/Sunlit luxury bedroom with a chandelier-6.png',
+        'img/chambres/noname/Narrow Luxury Bathroom in Warm Daylight-7.png',
+        'img/chambres/noname/Luxury bedroom in warm daylight-8.png',
+        'img/chambres/noname/Luxury Hotel Bathroom in Matte Black-9.png'
+      ],
+      breakfastIncluded: false,
+      breakfastNote: { fr: 'À confirmer', en: 'To be confirmed' },
+      taxes: {
+        included: false,
+        note: { fr: 'À confirmer', en: 'To be confirmed' }
+      },
+      cancellation: { fr: 'À confirmer', en: 'To be confirmed' },
+      featured: false
     }
   ];
 
@@ -699,8 +744,8 @@
       image: 'img/hebergement.png',
       title: { fr: 'Hébergement', en: 'Accommodation' },
       short: {
-        fr: '9 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
-        en: '9 rooms and suites spread over seven floors, with unobstructed views over the city and the landscaped garden.'
+        fr: '10 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
+        en: '10 rooms and suites spread over seven floors, with unobstructed views over the city and the landscaped garden.'
       },
       details: [
         {
@@ -990,10 +1035,10 @@
       items: [
         {
           icon: 'location',
-          title: { fr: 'À deux pas du centre', en: 'Steps from the centre' },
+          title: { fr: 'En bout de la rue Hippodrome', en: 'At the end of Hippodrome Road' },
           text: {
-            fr: 'Rue Hippodrome, à 2 km du centre administratif et à 6 km de l\'aéroport international de Yaoundé-Nsimalen.',
-            en: 'Hippodrome Street, 2 km from the administrative centre and 6 km from Yaoundé-Nsimalen International Airport.'
+            fr: 'Au bout de la dernière rue Hippodrome, à un peu plus d’un kilomètre du centre administratif et à 6 km de l\'aéroport international de Yaoundé-Nsimalen.',
+            en: 'At the end of Hippodrome Road, a little over one kilometre from the administrative centre and 6 km from Yaoundé-Nsimalen International Airport.'
           }
         },
         {

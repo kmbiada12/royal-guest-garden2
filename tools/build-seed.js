@@ -100,7 +100,10 @@ function build({ config, data }) {
         str(r.id), str(r.ref), str(r.name), str(r.category), int(r.price),
         int(r.capacity), json(r.beds), int(r.size), json(r.floor), json(r.view),
         json(r.short), json(r.description), textArray(r.amenities), textArray(r.images),
-        bool(r.breakfastIncluded), json(r.breakfastNote), bool(r.taxes.included),
+        bool(r.breakfastIncluded), json(r.breakfastNote || {
+          fr: r.breakfastIncluded ? 'Petit-déjeuner inclus' : 'Petit-déjeuner non inclus',
+          en: r.breakfastIncluded ? 'Breakfast included' : 'Breakfast not included'
+        }), bool(r.taxes.included),
         json(r.taxes.note), json(r.cancellation), bool(r.featured), int(i + 1)
       ])
     )

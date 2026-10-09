@@ -15,12 +15,12 @@ window.RGG_CONFIG = {
     name: 'Royal Guest Garden, RÉSIDENCE HÔTELIÈRE',
     slogan: { fr: 'Confort, élégance & sérénité', en: 'Comfort, elegance & serenity' },
     type: { fr: 'Hôtel 4 étoiles', en: '4-star hotel' },
-    addressLine: 'Rue Hippodrome',
+    addressLine: 'Dernière rue Hippodrome',
     city: 'Yaoundé',
     region: 'Cameroun',
     address: {
-      fr: 'Rue Hippodrome, Yaoundé, Cameroun',
-      en: 'Rue Hippodrome, Yaoundé, Cameroon'
+      fr: 'Dernière rue Hippodrome, Yaoundé, Cameroun',
+      en: 'At the end of Hippodrome Road, Yaoundé, Cameroon'
     },
     // Numéro d'appel affiché sur le site (format lisible).
     phoneDisplay: '691 491 948',
@@ -32,20 +32,20 @@ window.RGG_CONFIG = {
     emailBooking: 'reservations@royalguestgarden.cm',
     // Lien vers la localisation / plan d'accès (à adapter à votre adresse réelle).
     mapUrl:
-      'https://www.google.com/maps/search/?api=1&query=Rue+Hippodrome%2C+Yaound%C3%A9%2C+Cameroun',
+      'https://www.google.com/maps/search/?api=1&query=Derni%C3%A8re+rue+Hippodrome%2C+Yaound%C3%A9%2C+Cameroun',
     mapEmbedNote: {
-      fr: 'L\'hôtel se situe à 2 km du centre administratif.',
-      en: 'The hotel is located 2 km from the administrative centre.'
+      fr: 'L\'hôtel se situe à un peu plus d\'un kilomètre du centre administratif.',
+      en: 'The hotel is located a little over one kilometre from the administrative centre.'
     },
     landmarks: {
       fr: [
-        'À 2 km du centre administratif et des ministères',
+        'À un peu plus d’un kilomètre du centre administratif et des ministères',
         'À 1 km du marché central Akea',
         'À 6 km de l\'aéroport international de Yaoundé-Nsimalen',
         'À 12 km de la route dusud, direction Douala'
       ],
       en: [
-        '2 km from the administrative centre and the ministries',
+        'A little over one kilometre from the administrative centre and the ministries',
         '1 km from Akea Central Market',
         '6 km from Yaoundé-Nsimalen International Airport',
         '12 km from the southern road towards Douala'

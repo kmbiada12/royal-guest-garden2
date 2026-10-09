@@ -1,6 +1,6 @@
 # Royal Guest Garden — site vitrine
 
-Site statique pour un hôtel fictif de Douala (Cameroun) : **9 chambres**, **9 services**,
+Site statique pour un hôtel fictif de Douala (Cameroun) : **10 chambres**, **9 services**,
 réservation et demandes de devis centralisées sur **WhatsApp**.
 
 Aucune dépendance, aucun build : du HTML, du CSS et du JavaScript natif. Le contenu
@@ -269,7 +269,7 @@ similaire n'est codée en dur dans le site.
 
 ## Contenu des chambres et des services
 
-- **`js/data.js`** — les 9 chambres (prix, capacité, lits, surface, équipements,
+- **`js/data.js`** — les 10 chambres (prix, capacité, lits, surface, équipements,
   galerie photo, petit-déjeuner, taxe, inclusions, non-inclusions).
 - **`js/data-services.js`** — les 9 services, les témoignages, les engagements,
   l'équipe et la galerie de l'hôtel.
@@ -357,7 +357,7 @@ node tools/build-vercel.mjs # essai local de l'assemblage production (site + /ad
 | Suite | Contrôle |
 |---|---|
 | `tools/check-data.js` | Nombre et unicité des chambres, filtres combinés, tris, calcul de nuits et de total, contenu des messages WhatsApp, échappement HTML |
-| `tools/check-url.js` | Lecture du paramètre `?id=`, cas invalides, identifiants hostiles, messages des 9 chambres |
+| `tools/check-url.js` | Lecture du paramètre `?id=`, cas invalides, identifiants hostiles, messages des 10 chambres |
 | `tools/check-html.js` | Équilibre des balises, présence d'un seul `<h1>`, slots partagés, existence des scripts, `lang`, `viewport` |
 | `tools/check-pages.js` | Chargement des scripts, ancres attendues par chaque script, champs du formulaire, liens internes valides |
 | `tools/check-css.js` | Classes utilisées en HTML et en JS présentes dans la feuille de style, variables CSS toutes définies |
