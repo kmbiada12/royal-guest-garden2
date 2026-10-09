@@ -108,11 +108,11 @@
        ===================================================================== */
       'home.metaTitle': 'Hôtel à Yaoundé — Royal Guest Garden',
       'home.metaDesc':
-        'Royal Guest Garden, hôtel 4 étoiles à Yaoundé, Rue Hippodrome. Dix chambres à partir de 50 000 FCFA la nuit, restaurant, piscine et tennis. Réservation via WhatsApp.',
+        'Royal Guest Garden, hôtel 4 étoiles à Yaoundé, Rue Hippodrome. Neuf chambres à partir de 50 000 FCFA la nuit, restaurant, piscine et tennis. Réservation via WhatsApp.',
       'home.badge': 'Hôtel 4 étoiles · Yaoundé, Rue Hippodrome',
       'home.hero.title': 'Confort, élégance & sérénité',
       'home.hero.subtitle':
-        'À deux pas du centre administratif de Yaoundé, le Royal Guest Garden accueille des clients d\'affaires, des couples et des familles dans un cadre calme et soigné. Dix chambres à partir de 50 000 FCFA la nuit.',
+        'À deux pas du centre administratif de Yaoundé, le Royal Guest Garden accueille des clients d\'affaires, des couples et des familles dans un cadre calme et soigné. Neuf chambres à partir de 50 000 FCFA la nuit.',
       'home.hero.imageAlt': 'Hall d\'accueil du Royal Guest Garden à Yaoundé',
       'home.hero.cta1': 'Découvrir nos chambres',
       'home.hero.cta2': 'Réserver via WhatsApp',
@@ -126,7 +126,7 @@
       'home.intro.eyebrow': 'Bienvenue',
       'home.intro.title': 'Un hôtel de ville qui connaît l\'hospitalité camerounaise',
       'home.intro.p1':
-        'Le Royal Guest Garden est un hôtel de quatre étoiles situé rue Hippodrome, à Yaoundé. Derrière sa façade sobre, l\'hôtel déploie dix chambres et suites réparties sur sept étages, un restaurant de cuisine camerounaise et internationale, un bar ouvert tard le soir, une piscine de vingt mètres dans un jardin tropical et un court de tennis en terre battue.',
+        'Le Royal Guest Garden est un hôtel de quatre étoiles situé rue Hippodrome, à Yaoundé. Derrière sa façade sobre, l\'hôtel déploie neuf chambres et suites réparties sur sept étages, un restaurant de cuisine camerounaise et internationale, un bar ouvert tard le soir, une piscine de vingt mètres dans un jardin tropical et un court de tennis en terre battue.',
       'home.intro.p2':
         'Chaque chambre porte le nom d\'un lieu ou d\'un quartier du coin — Waza, Mouessi, Ntem, Febe, Lobe, Oku, Laakam. Ce n\'est pas un folklore : c\'est une façon de rappeler que l\'hôtel appartient à son quartier et que chaque client est attendu comme un voisin.',
       'home.intro.p3':
@@ -136,8 +136,8 @@
       'home.featured.eyebrow': 'Nos chambres',
       'home.featured.title': 'Chambres mises en avant',
       'home.featured.subtitle':
-        'Six chambres qui illustrent notre gamme : de la chambre Supérieure à la suite panoramique.',
-      'home.featured.all': 'Voir les 10 chambres',
+        'Découvrez nos Chambres simples, Suites Juniors, Suites Seniors et suites VVIP.',
+      'home.featured.all': 'Voir les 9 chambres',
 
       'home.services.eyebrow': 'Nos services',
       'home.services.title': 'Tout sur place, du petit-déjeuner au court de tennis',
@@ -164,7 +164,7 @@
       'home.cta.step2': 'Indiquez vos dates et le nombre de clients',
       'home.cta.step3': 'Envoyez votre demande sur WhatsApp',
       'home.cta.step1Text':
-        'Parcourez les dix chambres, comparez les équipements et les tarifs en FCFA.',
+        'Parcourez les neuf chambres, comparez les équipements et les tarifs en FCFA.',
       'home.cta.step2Text':
         'Le site calcule le nombre de nuits et le total estimé de votre séjour.',
       'home.cta.step3Text':
@@ -177,11 +177,11 @@
        ===================================================================== */
       'rooms.metaTitle': 'Nos chambres — Royal Guest Garden Yaoundé',
       'rooms.metaDesc':
-        'Catalogue des 10 chambres et suites du Royal Guest Garden à Yaoundé : Standard, Supérieure, Deluxe, Suite et Familiale. Réservation via WhatsApp.',
-      'rooms.badge': '10 chambres et suites',
+        'Catalogue des 9 chambres du Royal Guest Garden à Yaoundé : Chambres simples à 50 000 FCFA, Suites Juniors à 70 000 ou 80 000 FCFA, Suites Seniors à 100 000 FCFA et VVIP à 150 000 FCFA la nuit. Réservation via WhatsApp.',
+      'rooms.badge': '9 chambres et suites',
       'rooms.hero.title': 'Nos chambres',
       'rooms.hero.subtitle':
-        'Dix chambres et suites nommées d\'après les quartiers de Yaoundé. Filtrez selon votre budget, votre nombre de clients et vos équipements préférés.',
+        'Neuf chambres et suites nommées d\'après les quartiers de Yaoundé. Filtrez selon votre budget, votre nombre de clients et vos équipements préférés.',
       'rooms.hero.imageAlt': 'Chambre de l\'hôtel Royal Guest Garden',
 
       'rooms.filters.title': 'Filtrer les chambres',
@@ -271,7 +271,6 @@
           'Linge de maison et serviettes changées chaque jour',
           'Wi-Fi fibre et accès au salon commun',
           'Sécurité 24 h/24 et accès contrôlé',
-          'Petit-déjeuner buffet (si inclus dans la catégorie)',
           'Accès à la piscine et aux espaces de détente'
         ],
         en: [
@@ -281,7 +280,6 @@
           'House linen and towels changed daily',
           'Fibre Wi-Fi and access to the shared lounge',
           '24/7 security and controlled access',
-          'Buffet breakfast (where included in the category)',
           'Access to the pool and relaxation areas'
         ]
       },
@@ -290,25 +288,17 @@
       'room.excluded.lists': {
         fr: [
           'Repas et boissons au restaurant et au bar (service en chambre en supplément)',
-          'Transferts aéroport et trajets en taxi',
           'Location de salle de conférence et événements privés',
           'Massages au coins bien-être et cours de tennis',
-          'Blanchisserie et pressing (laverie disponible dans certaines chambres)',
           'Lit d\'appoint supplémentaire (8 000 FCFA par nuit)'
         ],
         en: [
           'Meals and drinks in the restaurant and bar (in-room dining charged separately)',
-          'Airport transfers and taxi journeys',
           'Conference room hire and private events',
           'Wellness corner massages and tennis lessons',
-          'Laundry and pressing (washer available in some rooms)',
           'Additional extra bed (8,000 FCFA per night)'
         ]
       },
-
-      'room.breakfast.title': 'Petit-déjeuner',
-      'room.breakfast.included': 'Petit-déjeuner inclus dans le tarif affiché.',
-      'room.breakfast.notIncluded': 'Petit-déjeuner non inclus dans le tarif affiché.',
 
       'room.taxes.title': 'Taxes et frais',
       'room.taxes.included': 'Taxes incluses dans le tarif affiché.',
@@ -379,14 +369,14 @@
       'about.story.p2':
         'L\'hôtel s\'organise autour d\'un jardin tropical de 2 000 m², d\'une piscine de vingt mètres et d\'un restaurant à la carte ouverte sur la verdure. Les chambres, du simple au prestige, donnent toutes sur un espace paysager : la lumière du matin fait partie du séjour.',
       'about.story.p3':
-        'Notre équipe compte plus de trente personnes formées à l\'hospitalité camerounaise et à la gestion hôtelière. Elles sont à votre disposition à toute heure, pour un transfert, une réservation de restaurant, une excursion ou un simple conseil de quartier.',
+        'Notre équipe veille à l\'accueil et au bon fonctionnement de l\'hôtel. La réception est ouverte 24 h/24.',
 
       'about.atmosphere.eyebrow': 'Notre atmosphère',
       'about.atmosphere.title': 'Élégance discrète, chaleur familiale',
       'about.atmosphere.p1':
         'La palette navy et or de l\'hôtel, le bois sombre, les tissus en lin et la lumière dorée du soir composent une atmosphère à la fois formelle et profondément accueillante. Nos clients le formulent souvent ainsi : « on se sent reçu, pas logé ».',
       'about.atmosphere.p2':
-        'Le service est attentif mais jamais intrusif. Un petit-déjeuner vous attend à votre heure, votre voiture est prête, votre chambre est fraîche et sombre la nuit. C\'est tout ce qu\'il faut pour se sentir chez soi, à 1 200 kilomètres de chez soi.',
+        'L\'accueil est chaleureux et l\'atmosphère propice au repos. Profitez du petit-déjeuner, d\'une chambre confortable et d\'un cadre calme pour vous sentir chez vous, à 1 200 kilomètres de chez vous.',
 
       'about.location.eyebrow': 'Emplacement',
       'about.location.title': 'Rue Hippodrome, Yaoundé',
@@ -472,13 +462,10 @@
       'contact.access.title': 'Venir à l\'hôtel',
       'contact.access.byCar': 'En voiture',
       'contact.access.byCarText':
-        'L\'hôtel dispose d\'un parking privé gratuit pour les clients des chambres Deluxe, Suite et Familiale. Pour les autres catégories, un parking surveillé est disponible à 300 m.',
+        'L\'hôtel dispose d\'un parking privé gratuit pour les clients des chambres Mont Cameroun, Dja, Laakam et Oku. Pour les autres chambres, un parking surveillé est disponible à 300 m.',
       'contact.access.byPlane': 'En avion',
       'contact.access.byPlaneText':
-        'L\'aéroport international de Yaoundé-Nsimalen se trouve à environ 6 km. Une navette peut être organisée sur demande (2 500 FCFA par personne).',
-      'contact.access.byTaxi': 'En taxi',
-      'contact.access.byTaxiText':
-        'Depuis l\'aéroport, environ 20 à 30 minutes de trajet selon la circulation. L\'hôtel peut appeler un taxi à votre demande à tout moment.',
+        'L\'aéroport international de Yaoundé-Nsimalen se trouve à environ 6 km de l\'hôtel.',
 
       'contact.form.title': 'Formulaire de demande',
       'contact.form.subtitle':
@@ -514,7 +501,6 @@
       'contact.subjects.reservation': 'Demande de réservation',
       'contact.subjects.event': 'Événement ou conférence',
       'contact.subjects.group': 'Réservation de groupe',
-      'contact.subjects.transfer': 'Transfert aéroport',
       'contact.subjects.complaint': 'Réclamation ou suggestion',
       'contact.subjects.other': 'Autre demande',
 
@@ -557,7 +543,7 @@
       'book.estimate.guests': 'Clients',
       'book.estimate.excludedTitle': 'Non compris dans cette estimation',
       'book.estimate.excluded':
-        'Repas et boissons au restaurant et au bar, transferts aéroport, événements, massages, cours de tennis, blanchisserie et tout autre service optionnel.',
+        'Repas et boissons au restaurant et au bar, événements, massages et cours de tennis.',
       'book.estimate.disclaimer':
         'Cette estimation est indicative et calculée à partir du tarif par nuit affiché sur le site. Elle ne constitue pas un devis. Le tarif final, la disponibilité et les conditions sont confirmés par l\'hôtel avant validation de votre réservation.',
       'book.estimate.nightly': 'Tarif par nuit',
@@ -700,7 +686,7 @@
 
       'footer.tagline': 'Comfort, elegance & serenity',
       'footer.about':
-        'A 4-star hotel in Yaoundé, Rue Hippodrome. Ten rooms and suites, a restaurant, a bar, a pool and a tennis court.',
+        'A 4-star hotel in Yaoundé, Rue Hippodrome. Nine rooms and suites, a restaurant, a bar, a pool and a tennis court.',
       'footer.nav': 'Navigation',
       'footer.contact': 'Contact',
       'footer.hours': 'Opening hours',
@@ -720,11 +706,11 @@
 
       'home.metaTitle': 'Hotel in Yaoundé — Royal Guest Garden',
       'home.metaDesc':
-        'Royal Guest Garden, a 4-star hotel in Yaoundé, Rue Hippodrome. Ten rooms from 50,000 FCFA per night, restaurant, pool and tennis. Book via WhatsApp.',
+        'Royal Guest Garden, a 4-star hotel in Yaoundé, Rue Hippodrome. Nine rooms from 50,000 FCFA per night, restaurant, pool and tennis. Book via WhatsApp.',
       'home.badge': '4-star hotel · Yaoundé, Rue Hippodrome',
       'home.hero.title': 'Comfort, elegance & serenity',
       'home.hero.subtitle':
-        'A short walk from the administrative centre of Yaoundé, Royal Guest Garden welcomes business travellers, couples and families in a calm, well-kept setting. Ten rooms from 50,000 FCFA per night.',
+        'A short walk from the administrative centre of Yaoundé, Royal Guest Garden welcomes business travellers, couples and families in a calm, well-kept setting. Nine rooms from 50,000 FCFA per night.',
       'home.hero.imageAlt': 'Reception hall of Royal Guest Garden in Yaoundé',
       'home.hero.cta1': 'Discover our rooms',
       'home.hero.cta2': 'Book via WhatsApp',
@@ -738,7 +724,7 @@
       'home.intro.eyebrow': 'Welcome',
       'home.intro.title': 'A city hotel that knows Cameroonian hospitality',
       'home.intro.p1':
-        'Royal Guest Garden is a four-star hotel on Rue Hippodrome in Yaoundé. Behind its understated façade, the hotel offers ten rooms and suites over seven floors, a restaurant serving Cameroonian and international cuisine, a bar that stays open late, a twenty-metre pool in a tropical garden and a clay tennis court.',
+        'Royal Guest Garden is a four-star hotel on Rue Hippodrome in Yaoundé. Behind its understated façade, the hotel offers nine rooms and suites over seven floors, a restaurant serving Cameroonian and international cuisine, a bar that stays open late, a twenty-metre pool in a tropical garden and a clay tennis court.',
       'home.intro.p2':
         'Every room is named after a place or a district nearby — Waza, Mouessi, Ntem, Febe, Lobe, Oku, Laakam. It is not folklore: it is a way of saying that the hotel belongs to its neighbourhood and that every traveller is expected like a neighbour.',
       'home.intro.p3':
@@ -748,8 +734,8 @@
       'home.featured.eyebrow': 'Our rooms',
       'home.featured.title': 'Featured rooms',
       'home.featured.subtitle':
-        'Six rooms that show the range of what we offer, from the Superior room to the panoramic suite.',
-      'home.featured.all': 'See all 10 rooms',
+        'Explore our Standard rooms, Junior Suites, Senior Suites and VVIP suite.',
+      'home.featured.all': 'See all 9 rooms',
 
       'home.services.eyebrow': 'Our services',
       'home.services.title': 'Everything on site, from breakfast to the tennis court',
@@ -776,7 +762,7 @@
       'home.cta.step2': 'Enter your dates and travellers',
       'home.cta.step3': 'Send your request on WhatsApp',
       'home.cta.step1Text':
-        'Browse the ten rooms and compare the facilities and the rates in FCFA.',
+        'Browse the nine rooms and compare the facilities and the rates in FCFA.',
       'home.cta.step2Text':
         'The website calculates the number of nights and the estimated total of your stay.',
       'home.cta.step3Text':
@@ -786,11 +772,11 @@
 
       'rooms.metaTitle': 'Our rooms — Royal Guest Garden Yaoundé',
       'rooms.metaDesc':
-        'The 10 rooms and suites at Royal Guest Garden in Yaoundé: Standard, Superior, Deluxe, Suite and Family. Book via WhatsApp.',
-      'rooms.badge': '10 rooms and suites',
+        'The 9 rooms at Royal Guest Garden in Yaoundé: Standard rooms at 50,000 FCFA, Junior Suites at 70,000 or 80,000 FCFA, Senior Suites at 100,000 FCFA and VVIP at 150,000 FCFA per night. Book via WhatsApp.',
+      'rooms.badge': '9 rooms and suites',
       'rooms.hero.title': 'Our rooms',
       'rooms.hero.subtitle':
-        'Ten rooms and suites named after Yaoundé districts. Filter by budget, number of travellers and preferred amenities.',
+        'Nine rooms and suites named after Yaoundé districts. Filter by budget, number of travellers and preferred amenities.',
       'rooms.hero.imageAlt': 'A room at Royal Guest Garden',
 
       'rooms.filters.title': 'Filter the rooms',
@@ -878,7 +864,6 @@
           'House linen and towels changed daily',
           'Fibre Wi-Fi and access to the shared lounge',
           '24/7 security and controlled access',
-          'Buffet breakfast (where included in the category)',
           'Access to the pool and relaxation areas'
         ],
         en: [
@@ -888,7 +873,6 @@
           'House linen and towels changed daily',
           'Fibre Wi-Fi and access to the shared lounge',
           '24/7 security and controlled access',
-          'Buffet breakfast (where included in the category)',
           'Access to the pool and relaxation areas'
         ]
       },
@@ -897,25 +881,17 @@
       'room.excluded.lists': {
         fr: [
           'Meals and drinks in the restaurant and bar (in-room dining charged separately)',
-          'Airport transfers and taxi journeys',
           'Conference room hire and private events',
           'Wellness corner massages and tennis lessons',
-          'Laundry and pressing (washer available in some rooms)',
           'Additional extra bed (8,000 FCFA per night)'
         ],
         en: [
           'Meals and drinks in the restaurant and bar (in-room dining charged separately)',
-          'Airport transfers and taxi journeys',
           'Conference room hire and private events',
           'Wellness corner massages and tennis lessons',
-          'Laundry and pressing (washer available in some rooms)',
           'Additional extra bed (8,000 FCFA per night)'
         ]
       },
-
-      'room.breakfast.title': 'Breakfast',
-      'room.breakfast.included': 'Breakfast included in the displayed rate.',
-      'room.breakfast.notIncluded': 'Breakfast not included in the displayed rate.',
 
       'room.taxes.title': 'Taxes and charges',
       'room.taxes.included': 'Taxes included in the displayed rate.',
@@ -980,14 +956,14 @@
       'about.story.p2':
         'The hotel is built around a 2,000 m² tropical garden, a twenty-metre pool and an à la carte restaurant opening onto the greenery. The rooms, from simple to prestigious, all look out onto landscaped space: the morning light is part of the stay.',
       'about.story.p3':
-        'Our team is made up of more than thirty people trained in Cameroonian hospitality and hotel management. They are at your disposal at any hour, for a transfer, a restaurant booking, an excursion or simply advice about the neighbourhood.',
+        'Our team looks after the welcome and smooth running of the hotel. The front desk is open 24/7.',
 
       'about.atmosphere.eyebrow': 'Our atmosphere',
       'about.atmosphere.title': 'Discreet elegance, family warmth',
       'about.atmosphere.p1':
         'The hotel\'s navy and gold palette, dark wood, linen fabrics and the golden light of evening create an atmosphere that is both formal and genuinely welcoming. Our guests often put it this way: "you feel received, not just accommodated".',
       'about.atmosphere.p2':
-        'The service is attentive but never intrusive. Breakfast is ready when you are, your car is waiting, your room is cool and dark at night. That is all it takes to feel at home, 1,200 kilometres from home.',
+        'The welcome is warm and the atmosphere is restful. Enjoy breakfast, a comfortable room and a peaceful setting to feel at home, 1,200 kilometres from home.',
 
       'about.location.eyebrow': 'Location',
       'about.location.title': 'Rue Hippodrome, Yaoundé',
@@ -1068,13 +1044,10 @@
       'contact.access.title': 'Getting to the hotel',
       'contact.access.byCar': 'By car',
       'contact.access.byCarText':
-        'The hotel has free private parking for guests in Deluxe, Suite and Family rooms. For other categories, monitored parking is available 300 m away.',
+        'The hotel has free private parking for guests in the Mont Cameroun, Dja, Laakam and Oku rooms. For other rooms, monitored parking is available 300 m away.',
       'contact.access.byPlane': 'By plane',
       'contact.access.byPlaneText':
-        'Yaoundé-Nsimalen International Airport is about 6 km away. A shuttle can be arranged on request (2,500 FCFA per person).',
-      'contact.access.byTaxi': 'By taxi',
-      'contact.access.byTaxiText':
-        'From the airport, about 20 to 30 minutes depending on traffic. The hotel can call a taxi for you at any time.',
+        'Yaoundé-Nsimalen International Airport is about 6 km from the hotel.',
 
       'contact.form.title': 'Enquiry form',
       'contact.form.subtitle':
@@ -1111,7 +1084,6 @@
       'contact.subjects.reservation': 'Booking request',
       'contact.subjects.event': 'Event or conference',
       'contact.subjects.group': 'Group booking',
-      'contact.subjects.transfer': 'Airport transfer',
       'contact.subjects.complaint': 'Complaint or suggestion',
       'contact.subjects.other': 'Other enquiry',
 
@@ -1152,7 +1124,7 @@
       'book.estimate.guests': 'Guests',
       'book.estimate.excludedTitle': 'Not included in this estimate',
       'book.estimate.excluded':
-        'Meals and drinks in the restaurant and bar, airport transfers, events, massages, tennis lessons, laundry and any other optional service.',
+        'Meals and drinks in the restaurant and bar, events, massages and tennis lessons.',
       'book.estimate.disclaimer':
         'This estimate is indicative and calculated from the nightly rate shown on the website. It is not a quotation. The final rate, availability and conditions are confirmed by the hotel before your booking is validated.',
       'book.estimate.nightly': 'Nightly rate',

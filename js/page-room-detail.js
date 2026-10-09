@@ -161,7 +161,7 @@
     ].join('\n');
   }
 
-  function includedSection(room) {
+  function includedSection() {
     var included = H.pick(t('room.included.lists'));
     var excluded = H.pick(t('room.excluded.lists'));
 
@@ -185,15 +185,6 @@
       column(t('room.excluded.title'), excluded, 'info', 'cross-list'),
       '  </div>',
       '  <div class="two-col" style="margin-top:var(--sp-6)">',
-      '    <div>',
-      '      <h3>' + H.escapeHtml(t('room.breakfast.title')) + '</h3>',
-      '      <ul class="tick-list">',
-      '        <li>' + ICONS.icon(room.breakfastIncluded ? 'check' : 'info') +
-      H.escapeHtml(room.breakfastIncluded ? t('room.breakfast.included') : t('room.breakfast.notIncluded')) +
-      '</li>',
-      '        <li>' + ICONS.icon('info') + H.escapeHtml(H.pick(room.breakfastNote)) + '</li>',
-      '      </ul>',
-      '    </div>',
       '    <div>',
       '      <h3>' + H.escapeHtml(t('room.taxes.title')) + '</h3>',
       '      <ul class="tick-list">',
@@ -347,7 +338,7 @@
       roomNav(),
       '<div class="room-sections">',
       overviewSection(room),
-      includedSection(room),
+      includedSection(),
       policySection(),
       '</div>',
       '</div>',

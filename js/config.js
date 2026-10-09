@@ -95,19 +95,14 @@ window.RGG_CONFIG = {
     },
     policies: [
       {
-        key: 'arrival',
-        fr: 'Arrivée à partir de 15 h 00, départ jusqu\'à 11 h 00. Une arrivée anticipée peut être accordée sur demande, selon disponibilité.',
-        en: 'Check-in from 3:00 pm, check-out until 11:00 am. Early arrival may be granted on request, subject to availability.'
-      },
-      {
         key: 'guarantee',
         fr: 'Aucune réservation n\'est garantie avant confirmation écrite de l\'hôtel. Les disponibilités affichées sur ce site sont des exemples et doivent être vérifiées.',
         en: 'No booking is guaranteed before written confirmation from the hotel. Availability shown on this website is sample data and must be verified.'
       },
       {
         key: 'payment',
-        fr: 'Le règlement s\'effectue à l\'arrivée. Carte bancaire, espèces (FCFA) et Mobile Money sont acceptés.',
-        en: 'Payment is made on arrival. Credit card, cash (FCFA) and Mobile Money are accepted.'
+        fr: 'Le règlement s\'effectue à l\'arrivée par Mobile Money (MoMo), carte bancaire ou Orange Money (OM).',
+        en: 'Payment is due on arrival by Mobile Money (MoMo), bank card or Orange Money (OM).'
       },
       {
         key: 'cancellation',

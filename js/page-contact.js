@@ -24,8 +24,7 @@
     ['contact.hours.breakfast', false],
     ['contact.hours.restaurant', false],
     ['contact.hours.bar', false],
-    ['contact.hours.pool', false],
-    ['contact.hours.tennis', false]
+    ['contact.hours.pool', false]
   ];
 
   /* =====================================================================

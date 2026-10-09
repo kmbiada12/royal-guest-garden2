@@ -1,7 +1,7 @@
 /* =========================================================================
    Royal Guest Garden — Données de démonstration
    -------------------------------------------------------------------------
-   10 chambres / catégories, les services de l'hôtel, les équipements,
+   9 chambres / catégories, les services de l'hôtel, les équipements,
    les témoignages exemples, les avantages, les valeurs et l'équipe.
 
    ⚠  CONTENU DE DÉMONSTRATION : tous les textes, tarifs, disponibilités
@@ -27,11 +27,10 @@
      CATÉGORIES DE CHAMBRES
      --------------------------------------------------------------------- */
   var CATEGORIES = [
-    { id: 'standard', fr: 'Standard', en: 'Standard' },
-    { id: 'superieure', fr: 'Supérieure', en: 'Superior' },
-    { id: 'deluxe', fr: 'Deluxe', en: 'Deluxe' },
-    { id: 'suite', fr: 'Suite', en: 'Suite' },
-    { id: 'familiale', fr: 'Familiale', en: 'Family' }
+    { id: 'simple', fr: 'Chambres simples', en: 'Standard rooms' },
+    { id: 'junior-suite', fr: 'Suites Juniors', en: 'Junior Suites' },
+    { id: 'senior-suite', fr: 'Suites Seniors', en: 'Senior Suites' },
+    { id: 'vvip', fr: 'VVIP', en: 'VVIP' }
   ];
 
   /* ---------------------------------------------------------------------
@@ -66,15 +65,15 @@
   ];
 
   /* ---------------------------------------------------------------------
-     12 CHAMBRES / CATÉGORIES
+     9 CHAMBRES / CATÉGORIES
      --------------------------------------------------------------------- */
   var ROOMS = [
     {
       id: 'waza',
       ref: 'RGG-01',
       name: 'Waza',
-      category: 'standard',
-      price: 25000,
+      category: 'senior-suite',
+      price: 100000,
       capacity: 2,
       beds: {
         fr: '1 lit double 160 × 200 cm + 1 lit simple 90 × 190 cm',
@@ -115,10 +114,6 @@
         'img/chambres/wazabon/Warm daylight in a luxury stone bathroom-12.png'
       ],
       breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché.',
-        en: 'Buffet breakfast included in the displayed rate.'
-      },
       taxes: {
         included: true,
         note: {
@@ -137,8 +132,8 @@
       id: 'no-name',
       ref: 'RGG-02',
       name: 'Lobe',
-      category: 'standard',
-      price: 20000,
+      category: 'simple',
+      price: 50000,
       capacity: 2,
       beds: {
         fr: '1 lit double 140 × 200 cm',
@@ -179,10 +174,6 @@
         'img/chambres/lobe/Elegant Hotel Desk in Soft Daylight-11.png'
       ],
       breakfastIncluded: false,
-      breakfastNote: {
-        fr: 'Petit-déjeuner non inclus : à régler sur place (9 500 FCFA / personne).',
-        en: 'Breakfast not included: payable on site (9,500 FCFA / person).'
-      },
       taxes: {
         included: true,
         note: {
@@ -201,8 +192,8 @@
       id: 'mouessi',
       ref: 'RGG-03',
       name: 'Mouessi',
-      category: 'standard',
-      price: 28000,
+      category: 'senior-suite',
+      price: 100000,
       capacity: 3,
       beds: {
         fr: '1 lit double 160 × 200 cm + 1 lit simple 90 × 190 cm',
@@ -213,11 +204,11 @@
       view: { fr: 'Vue sur la rue calme de l\'Hippodrome', en: 'View over the quiet Hippodrome street' },
       short: {
         fr: 'Découvrez MOUESSI, un espace confortable et lumineux pensé pour vous offrir un séjour agréable et reposant. Profitez d\'un intérieur spacieux, d\'un salon accueillant et d\'un cadre idéal pour vous détendre comme chez vous.',
-        en: 'A more generous standard room, designed for three people or a longer stay.'
+        en: 'A generous senior suite, designed for three people or a longer stay.'
       },
       description: {
         fr: 'Découvrez MOUESSI, un espace confortable et lumineux pensé pour vous offrir un séjour agréable et reposant. Profitez d\'un intérieur spacieux, d\'un salon accueillant et d\'un cadre idéal pour vous détendre comme chez vous.',
-        en: 'Mouessi is the generous version of our Standard category: only 27 m², but a smarter layout. The main bed is separated from the extra bed by a partition, so a parent and a child can sleep without disturbing a colleague. The wardrobe is large, the bathroom has powerful hot water and the fibre connection is stable. Breakfast can be added on request when you submit your booking enquiry.'
+        en: 'Mouessi is a spacious 27 m² room with a smart layout. The main bed is separated from the extra bed by a partition, so a parent and a child can sleep without disturbing a colleague. The wardrobe is large, the bathroom has powerful hot water and the fibre connection is stable. Breakfast can be added on request when you submit your booking enquiry.'
       },
       amenities: [
         'climatisation',
@@ -253,10 +244,6 @@
         'img/chambres/mouessi/Sunlit Luxury Interior with Rich Wood.png'
       ],
       breakfastIncluded: false,
-      breakfastNote: {
-        fr: 'Petit-déjeuner non inclus : à régler sur place (9 500 FCFA / personne).',
-        en: 'Breakfast not included: payable on site (9,500 FCFA / person).'
-      },
       taxes: {
         included: true,
         note: {
@@ -275,8 +262,8 @@
       id: 'ntem',
       ref: 'RGG-04',
       name: 'Ntem',
-      category: 'superieure',
-      price: 35000,
+      category: 'junior-suite',
+      price: 70000,
       capacity: 2,
       beds: {
         fr: '1 lit king size 180 × 200 cm',
@@ -323,10 +310,6 @@
         'img/chambres/ntem/Luminous terrazzo shower retreat-10.png'
       ],
       breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché.',
-        en: 'Buffet breakfast included in the displayed rate.'
-      },
       taxes: {
         included: true,
         note: {
@@ -342,71 +325,11 @@
     },
 
     {
-      id: 'mvog-mbi',
-      ref: 'RGG-05',
-      name: 'Mvog-Mbi',
-      category: 'superieure',
-      price: 38000,
-      capacity: 3,
-      beds: {
-        fr: '1 lit double 160 × 200 cm + 1 lit simple 90 × 190 cm',
-        en: '1 double bed 160 × 200 cm + 1 single bed 90 × 190 cm'
-      },
-      size: 32,
-      floor: { fr: '3ᵉ étage, aile jardin', en: '3rd floor, garden wing' },
-      view: { fr: 'Vue sur la piscine et le jardin', en: 'View over the pool and garden' },
-      short: {
-        fr: 'Une supérieure avec vue sur la piscine : le petit luxe sans passer à la catégorie Deluxe.',
-        en: 'A Superior room overlooking the pool: a little luxury without stepping up to Deluxe.'
-      },
-      description: {
-        fr: 'Mvog-Mbi regarde la piscine depuis son balcon privé. C\'est la chambre préférée des familles qui partagent une chambre avec un enfant : le lit d\'appoint peut être placé contre le mur du salon, et le balcon reste un refuge calme à l\'heure de la sieste. La kitchenette, composée d\'un évier, d\'un four micro-ondes et d\'un réfrigérateur, permet de préparer un petit-déjeuner ou un dîner léger en chambre. Le service d\'étage assure la livraison du restaurant jusqu\'à 22 h 30.',
-        en: 'Mvog-Mbi overlooks the pool from its private balcony. It is the favourite room of families sharing with a child: the extra bed can be placed against the lounge wall, and the balcony remains a quiet refuge at siesta time. The kitchenette, with a sink, a microwave oven and a refrigerator, allows guests to prepare a light breakfast or supper in room. Room service delivers from the restaurant until 10:30 pm.'
-      },
-      amenities: [
-        'climatisation',
-        'eau-chaude',
-        'tv-satellite',
-        'tv-55',
-        'wifi',
-        'salon',
-        'balcon',
-        'cuisine-equipee',
-        'lumineuse',
-        'placards',
-        'minibar',
-        'piscine',
-        'coffret',
-        'coffre-fort',
-        'seche-cheveux',
-        'securite-24'
-      ],
-      images: [u('1445019980597-93fa8acb246c'), u('1631049552240-59c37f38802b'), u('1552321554-5fefe8c9ef14')],
-      breakfastIncluded: false,
-      breakfastNote: {
-        fr: 'Petit-déjeuner non inclus : à régler sur place (9 500 FCFA / personne).',
-        en: 'Breakfast not included: payable on site (9,500 FCFA / person).'
-      },
-      taxes: {
-        included: true,
-        note: {
-          fr: 'Taxes de séjour et TVA (19,25 %) incluses dans le tarif affiché.',
-          en: 'City tax and VAT (19.25%) included in the displayed rate.'
-        }
-      },
-      cancellation: {
-        fr: 'Annulation gratuite jusqu\'à 48 h avant l\'arrivée.',
-        en: 'Free cancellation up to 48 h before arrival.'
-      },
-      featured: false
-    },
-
-    {
       id: 'febe',
       ref: 'RGG-06',
       name: 'Febe',
-      category: 'superieure',
-      price: 42000,
+      category: 'junior-suite',
+      price: 80000,
       capacity: 3,
       beds: {
         fr: '1 lit king size 180 × 200 cm + 1 lit d\'appoint 90 × 190 cm',
@@ -457,10 +380,6 @@
         'img/chambres/febe/Luxury bathroom with warm daylight-12.png'
       ],
       breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché.',
-        en: 'Buffet breakfast included in the displayed rate.'
-      },
       taxes: {
         included: true,
         note: {
@@ -479,8 +398,8 @@
       id: 'mont-cameroun',
       ref: 'RGG-07',
       name: 'Mont Cameroun',
-      category: 'deluxe',
-      price: 58000,
+      category: 'senior-suite',
+      price: 100000,
       capacity: 4,
       beds: {
         fr: '1 lit king size 180 × 200 cm + 2 lits simples 90 × 190 cm',
@@ -495,7 +414,7 @@
       },
       description: {
         fr: 'Découvrez MONT CAMEROUN, d\'un espace chaleureux et confortable conçu pour vous offrir une véritable parenthèse de détente. Profitez d\'un intérieur agréable, d\'une ambiance paisible et de tout le nécessaire pour vous sentir comme chez-vous.',
-        en: 'Named in tribute to the summit that dominates the Yaoundé skyline, the Mount Cameroon room is the most spacious in the Deluxe category. The two separate bedrooms (one master bedroom, one children\'s room with two single beds) let the whole family rest. The lounge is fitted with a three-seater sofa and a large coffee table. The west-facing balcony is the ideal place for a sunset coffee. Bathroom with bathtub and separate shower.'
+        en: 'Named in tribute to the summit that dominates the Yaoundé skyline, the Mount Cameroon room is one of the hotel\'s most spacious rooms. The two separate bedrooms (one master bedroom, one children\'s room with two single beds) let the whole family rest. The lounge is fitted with a three-seater sofa and a large coffee table. The west-facing balcony is the ideal place for a sunset coffee. Bathroom with bathtub and separate shower.'
       },
       amenities: [
         'climatisation',
@@ -522,10 +441,6 @@
       ],
       images: [u('1631049035182-249067d7618e'), u('1522708323590-d24dbb6b0267'), u('1616486338812-3dadae4b4ace')],
       breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché pour deux personnes.',
-        en: 'Buffet breakfast included in the displayed rate for two guests.'
-      },
       taxes: {
         included: true,
         note: {
@@ -544,8 +459,8 @@
       id: 'dja',
       ref: 'RGG-08',
       name: 'Dja',
-      category: 'deluxe',
-      price: 65000,
+      category: 'senior-suite',
+      price: 100000,
       capacity: 4,
       beds: {
         fr: '1 lit king size 180 × 200 cm + 1 lit double 160 × 200 cm',
@@ -597,10 +512,6 @@
         'img/chambres/dja/Elegant hotel room with chandelier-9.png'
       ],
       breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché pour deux personnes.',
-        en: 'Buffet breakfast included in the displayed rate for two guests.'
-      },
       taxes: {
         included: true,
         note: {
@@ -619,8 +530,8 @@
       id: 'laakam',
       ref: 'RGG-10',
       name: 'Laakam',
-      category: 'familiale',
-      price: 85000,
+      category: 'junior-suite',
+      price: 80000,
       capacity: 6,
       beds: {
         fr: '1 lit king size 180 × 200 cm + 1 lit double 160 × 200 cm + 2 lits simples 90 × 190 cm',
@@ -681,10 +592,6 @@
         'img/chambres/laakam/Polished-hotel room-air conditioning detail-17.png'
       ],
       breakfastIncluded: false,
-      breakfastNote: {
-        fr: 'Petit-déjeuner non inclus : à régler sur place (9 500 FCFA / personne).',
-        en: 'Breakfast not included: payable on site (9,500 FCFA / person).'
-      },
       taxes: {
         included: true,
         note: {
@@ -703,7 +610,7 @@
       id: 'oku',
       ref: 'RGG-12',
       name: 'Oku',
-      category: 'suite',
+      category: 'vvip',
       price: 150000,
       capacity: 5,
       beds: {
@@ -715,11 +622,11 @@
       view: { fr: 'Vue à 360°, sans vis-à-vis, sur toute la ville de Yaoundé', en: 'Unobstructed 360° view over the whole of Yaoundé' },
       short: {
         fr: 'Découvre OKU, un espace chaleureux et lumineux pensé pour vous offrir un séjour confortable, pratique et reposant. Profitez d\'un intérieur spacieux, d\'un salon accueillant et de tout le nécessaire pour vous sentir comme chez-vous.',
-        en: 'The hotel\'s signature suite: 78 m² over two levels, private terrace and concierge service.'
+        en: 'The hotel\'s signature suite: 78 m² over two levels, private terrace and panoramic views.'
       },
       description: {
         fr: 'Découvre OKU, un espace chaleureux et lumineux pensé pour vous offrir un séjour confortable, pratique et reposant. Profitez d\'un intérieur spacieux, d\'un salon accueillant et de tout le nécessaire pour vous sentir comme chez-vous.',
-        en: 'The Oku suite is on the top floor of the hotel, with by far the finest view. It comprises two bedrooms (a master with a 200 × 200 cm king bed and a guest room with a queen bed and a single bed), two private bathrooms, a glazed corner lounge and a private 20 m² terrace overlooking the whole city. It comes with concierge service: restaurant bookings, taxi calls, excursions, pressing. A butler is available on request during the stay. Ideal for a wedding, a honeymoon or an executive stay.'
+        en: 'The Oku suite is on the top floor of the hotel, with by far the finest view. It comprises two bedrooms (a master with a 200 × 200 cm king bed and a guest room with a queen bed and a single bed), two private bathrooms, a glazed corner lounge and a private 20 m² terrace overlooking the whole city. Ideal for a wedding, a honeymoon or an executive stay.'
       },
       amenities: [
         'climatisation',
@@ -765,15 +672,11 @@
         'img/chambres/oku/oku-16.png'
       ],
       breakfastIncluded: true,
-      breakfastNote: {
-        fr: 'Petit-déjeuner buffet inclus dans le tarif affiché pour deux personnes, service en chambre et café exclusifs inclus.',
-        en: 'Buffet breakfast included in the displayed rate for two guests, plus exclusive in-room dining and coffee service.'
-      },
       taxes: {
         included: true,
         note: {
-          fr: 'Taxes de séjour et TVA (19,25 %) incluses dans le tarif affiché. Service de conciergerie facturé en sus selon la demande.',
-          en: 'City tax and VAT (19.25%) included in the displayed rate. Concierge service charged separately on request.'
+          fr: 'Taxes de séjour et TVA (19,25 %) incluses dans le tarif affiché.',
+          en: 'City tax and VAT (19.25%) included in the displayed rate.'
         }
       },
       cancellation: {
@@ -796,13 +699,13 @@
       image: 'img/hebergement.png',
       title: { fr: 'Hébergement', en: 'Accommodation' },
       short: {
-        fr: '10 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
-        en: '10 rooms and suites spread over seven floors, with unobstructed views over the city and the landscaped garden.'
+        fr: '9 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
+        en: '9 rooms and suites spread over seven floors, with unobstructed views over the city and the landscaped garden.'
       },
       details: [
         {
-          fr: 'Réception ouverte 24 h/24, avec service de consigne de bagages et conciergerie.',
-          en: 'Front desk open 24/7, with luggage storage and concierge service.'
+          fr: 'Réception ouverte 24 h/24.',
+          en: 'Front desk open 24/7.'
         },
         {
           fr: 'Arrivée dès 15 h 00, départ jusqu\'à 11 h 00 — horaires indicatifs, modifiables.',
@@ -815,10 +718,6 @@
         {
           fr: 'Petit-déjeuner buffet servi de 6 h 30 à 10 h 30.',
           en: 'Buffet breakfast served from 6:30 am to 10:30 am.'
-        },
-        {
-          fr: 'Navette sur demande vers l\'aéroport de Nsimalen (2 500 FCFA / personne).',
-          en: 'Airport shuttle to Nsimalen on request (2,500 FCFA / person).'
         }
       ],
       hours: {
@@ -832,9 +731,8 @@
           en: 'The room and the listed services are included in the room rate. Breakfast is included in certain rooms (Waza, Ntem, Febe, Mount Cameroon, Dja, Oku) and optional for the others.'
         },
         items: [
-          { label: { fr: 'Chambre à partir de', en: 'Room from' }, price: 20000 },
+          { label: { fr: 'Chambre à partir de', en: 'Room from' }, price: 50000 },
           { label: { fr: 'Petit-déjeuner buffet (par personne)', en: 'Buffet breakfast (per person)' }, price: 9500 },
-          { label: { fr: 'Navette aéroport (par personne)', en: 'Airport shuttle (per person)' }, price: 2500 },
           { label: { fr: 'Lit d\'appoint supplémentaire', en: 'Additional extra bed' }, price: 8000 }
         ]
       },
@@ -922,8 +820,8 @@
       pricing: {
         included: false,
         note: {
-          fr: 'Service facturé séparément. Boissons non alcoolisées offertes pour les clients des suites Deluxe et Suite.',
-          en: 'Charged separately. Non-alcoholic drinks are complimentary for Deluxe and Suite guests.'
+          fr: 'Service facturé séparément. Boissons non alcoolisées offertes pour les clients des Suites Seniors et VVIP.',
+          en: 'Charged separately. Non-alcoholic drinks are complimentary for Senior Suite and VVIP guests.'
         },
         items: [
           { label: { fr: 'Cocktail du Royal', en: 'Royal cocktail' }, price: 5500 },
@@ -969,8 +867,8 @@
       pricing: {
         included: 'partial',
         note: {
-          fr: 'Accès à la piscine offert aux clients de l\'hôtel (chambres Deluxe, Suites et Familiale). En option pour les visiteurs extérieurs.',
-          en: 'Pool access is free for hotel guests (Deluxe, Suite and Family rooms). Available as an option for external visitors.'
+          fr: 'Accès à la piscine offert aux clients des chambres Mont Cameroun, Dja, Laakam et Oku. En option pour les visiteurs extérieurs.',
+          en: 'Pool access is free for guests in the Mont Cameroun, Dja, Laakam and Oku rooms. Available as an option for external visitors.'
         },
         items: [
           { label: { fr: 'Accès piscine (clients de l\'hôtel)', en: 'Pool access (hotel guests)' }, price: 0 },
@@ -985,28 +883,24 @@
     {
       id: 'evenements',
       icon: 'event',
-      image: u('1511578314322-379afb476865'),
-      title: { fr: 'Événements & Conférences', en: 'Events & Conferences' },
+      image: 'img/salle-conference-room.png',
+      title: { fr: 'Conférences', en: 'Conferences' },
       short: {
-        fr: 'Salle de conférence pour 60 personnes, salon privé pour 30, et organisation complète de vos événements.',
-        en: 'Conference room for 60 people, private lounge for 30, and full event planning.'
+        fr: 'Salle de conférence pour 30 personnes, salon privé et accompagnement sur mesure pour vos rencontres professionnelles.',
+        en: 'Conference room for up to 30 people, a private lounge, and tailored support for your business events.'
       },
       details: [
         {
-          fr: 'Salle des conférences « Mont Cameroun » : 60 places en configuration école ou en U, vidéoprojecteur, écran, sono, Wi-Fi dédié.',
-          en: '"Mont Cameroon" conference room: 60 seats in classroom or U-shape, projector, screen, sound system, dedicated Wi-Fi.'
+          fr: 'Salle de conférence « Mont Cameroun » : jusqu’à 30 personnes en configuration école ou en U, avec vidéoprojecteur, écran, sonorisation et Wi-Fi dédié.',
+          en: '"Mont Cameroon" conference room: up to 30 people in classroom or U-shape seating, with a projector, screen, sound system, and dedicated Wi-Fi.'
         },
         {
-          fr: 'Salon privé « Ntem » : 30 personnes en dîner d\'affaires, cocktail ou mariage.',
-          en: 'Private "Ntem" lounge: 30 people for a business dinner, cocktail or wedding.'
+          fr: 'Salon privé « Ntem » pour vos réunions en petit comité, déjeuners d’affaires ou moments de réseautage.',
+          en: 'Private "Ntem" lounge for small meetings, business lunches, or networking.'
         },
         {
-          fr: 'Organisation de mariages, baptêmes, séminaires d\'entreprise, lancements de produits et plantation d\'arbres.',
-          en: 'Organisation of weddings, christenings, company seminars, product launches and tree plantings.'
-        },
-        {
-          fr: 'Transferts aéroport, hélicoptère ou bus privatisés sur demande, en partenariat avec des agences locales.',
-          en: 'Airport, helicopter or private bus transfers on request, in partnership with local agencies.'
+          fr: 'Organisation de séminaires, réunions d’entreprise, formations et lancements de produits.',
+          en: 'Planning for seminars, business meetings, training sessions, and product launches.'
         }
       ],
       hours: {
@@ -1021,8 +915,8 @@
           en: 'Quotation only. The quote includes room hire, catering, technical logistics and staff support.'
         },
         items: [
-          { label: { fr: 'Salle des conférences (demi-journée)', en: 'Conference room (half day)' }, price: 45000 },
-          { label: { fr: 'Salle des conférences (journée complète)', en: 'Conference room (full day)' }, price: 75000 },
+          { label: { fr: 'Salle de conférence (demi-journée)', en: 'Conference room (half day)' }, price: 45000 },
+          { label: { fr: 'Salle de conférence (journée complète)', en: 'Conference room (full day)' }, price: 75000 },
           { label: { fr: 'Salon privé (dîner ou cocktail, jusqu\'à 30 pers.)', en: 'Private lounge (dinner or cocktail, up to 30 guests)' }, price: 120000 },
           { label: { fr: 'Pause café & mignardises (par personne)', en: 'Coffee break & canapés (per person)' }, price: 4500 }
         ]
@@ -1031,50 +925,59 @@
     },
 
     {
-      id: 'tennis',
-      icon: 'tennis',
-      image: u('1439066615861-d1af74d74000'),
-      title: { fr: 'Court de tennis', en: 'Tennis court' },
+      id: 'espace-vert-evenement',
+      icon: 'event',
+      image: 'img/espace_vert_vue.png',
+      title: { fr: 'Espace vert pour événements', en: 'Outdoor event space' },
       short: {
-        fr: 'Un court en terre battue illuminé, ouvert du matin au soir, pour jouer seul, en famille ou entre collègues.',
-        en: 'A floodlit clay court, open from morning to evening, to play alone, with family or with colleagues.'
+        fr: 'Location de l’espace vert à 2 000 000 FCFA pour trois jours, avec une suite de deux chambres offerte pour une nuitée.',
+        en: 'Rent the outdoor event space for three days at 2,000,000 CFA francs, including a complimentary one-night stay in a two-bedroom suite.'
       },
       details: [
         {
-          fr: 'Un court en terre battue aux dimensions réglementaires, avec éclairage nocturne.',
-          en: 'One clay court of regulation size, with floodlighting.'
+          fr: 'Occupation du site pendant une période de trois jours.',
+          en: 'Use of the venue for a three-day period.'
         },
         {
-          fr: 'Raquettes et balles en location au snack-pool. Les chaussures de tennis sont à apporter.',
-          en: 'Racquets and balls available for hire at the pool snack bar. Tennis shoes must be brought.'
+          fr: 'Une suite complète de deux chambres offerte pour une nuitée.',
+          en: 'A complimentary one-night stay in a two-bedroom suite.'
         },
         {
-          fr: 'Cours d\'initiation et de perfectionnement avec un moniteur (sur réservation).',
-          en: 'Beginner and improvement lessons with a coach (by reservation).'
+          fr: 'Nettoyage régulier des salles d’eau pendant l’événement.',
+          en: 'Regular cleaning of the washrooms throughout the event.'
         },
         {
-          fr: 'Accès prioritaire offert aux clients des chambres Deluxe, Suites et Familiale.',
-          en: 'Priority access included for guests in Deluxe, Suite and Family rooms.'
+          fr: 'Accès aux deux parkings intérieurs et au parking extérieur.',
+          en: 'Access to both indoor parking areas and the outdoor car park.'
+        },
+        {
+          fr: 'Sécurité renforcée pendant toute la durée de l’événement.',
+          en: 'Enhanced security throughout the event.'
+        },
+        {
+          fr: 'Salle de rangement pour le matériel de cuisine avec deux feux de cuisson.',
+          en: 'A storage room for catering equipment with a two-burner cooking hob.'
+        },
+        {
+          fr: 'Relais automatique du générateur en cas de coupure de courant.',
+          en: 'Automatic generator backup in the event of a power outage.'
         }
       ],
       hours: {
-        fr: 'Tous les jours de 7 h 00 à 22 h 00 · Éclairage jusqu\'à 22 h 00',
-        en: 'Every day from 7:00 am to 10:00 pm · Floodlights until 10:00 pm'
+        fr: 'Location sur réservation · Occupation du site pendant trois jours',
+        en: 'Available by reservation · Venue use for three days'
       },
       pricing: {
-        included: 'partial',
+        included: false,
         note: {
-          fr: 'Location du court facturée séparément. L\'accès prioritaire est offert aux clients Deluxe, Suite et Familiale.',
-          en: 'Court hire is charged separately. Priority access is complimentary for Deluxe, Suite and Family guests.'
+          fr: 'Tarif de location pour trois jours : 2 000 000 FCFA.',
+          en: 'Three-day rental rate: 2,000,000 CFA francs.'
         },
         items: [
-          { label: { fr: 'Location du court (1 heure)', en: 'Court hire (1 hour)' }, price: 8000 },
-          { label: { fr: 'Balles en location (séance)', en: 'Balls for hire (session)' }, price: 2000 },
-          { label: { fr: 'Cours avec moniteur (1 heure)', en: 'Lesson with coach (1 hour)' }, price: 20000 },
-          { label: { fr: 'Accès prioritaire (Deluxe, Suite, Familiale)', en: 'Priority access (Deluxe, Suite, Family)' }, price: 0 }
+          { label: { fr: 'Location de l’espace vert (3 jours)', en: 'Outdoor event space rental (3 days)' }, price: 2000000 }
         ]
       },
-      inquiry: 'info'
+      inquiry: 'quote'
     }
   ];
 
@@ -1097,8 +1000,8 @@
           icon: 'bell',
           title: { fr: 'Réception 24 h/24', en: '24/7 front desk' },
           text: {
-            fr: 'Accueil, conciergerie et réservation de taxis disponibles à toute heure, de jour comme de nuit.',
-            en: 'Reception, concierge and taxi bookings available at any hour, day or night.'
+            fr: 'Réception ouverte 24 h/24 pour vous accueillir à tout moment.',
+            en: 'The front desk is open 24/7 to welcome guests at any time.'
           }
         },
         {
@@ -1249,24 +1152,24 @@
       audience: { fr: 'Couples', en: 'Couples' },
       icon: 'heart',
       text: {
-        fr: 'Chambres Deluxe et Suites avec terrasse privative, baignoire profonde, dîner au calme sur la terrasse du restaurant et cocktails au bar en soirée.',
-        en: 'Deluxe rooms and Suites with private terrace, deep bathtubs, quiet dinners on the restaurant terrace and cocktails at the bar in the evening.'
+        fr: 'Suites Seniors et VVIP avec terrasse privative, baignoire profonde, dîner au calme sur la terrasse du restaurant et cocktails au bar en soirée.',
+        en: 'Senior and VVIP suites with private terrace, deep bathtubs, quiet dinners on the restaurant terrace and cocktails at the bar in the evening.'
       }
     },
     {
       audience: { fr: 'Familles', en: 'Families' },
       icon: 'family',
       text: {
-        fr: 'La chambre familiale Laakam accueille six personnes avec cuisine équipée, la piscine dispose d\'un bassin pour les enfants, et le service de conciergerie organise les visites adaptées.',
-        en: 'The Laakam family room sleeps six guests with an equipped kitchen, the pool has a shallow area for children, and the concierge arranges suitable visits.'
+        fr: 'La chambre familiale Laakam accueille six personnes avec cuisine équipée, et la piscine dispose d\'un bassin pour les enfants.',
+        en: 'The Laakam family room sleeps six guests with an equipped kitchen, and the pool has a shallow area for children.'
       }
     },
     {
       audience: { fr: 'Touristes', en: 'Tourists' },
       icon: 'camera',
       text: {
-        fr: 'Point de départ idéal pour découvrir Yaoundé et ses environs : au programme, le quartier de l\'Hippodrome, le marché central et des excursions sur demande vers le Mont Cameroun ou Douala.',
-        en: 'An ideal starting point for discovering Yaoundé and beyond: the Hippodrome district, the central market and, on request, excursions to Mount Cameroon or Douala.'
+        fr: 'L\'hôtel se trouve dans le quartier de l\'Hippodrome, à proximité du marché central et des principaux lieux d\'intérêt de Yaoundé.',
+        en: 'The hotel is located in the Hippodrome district, near the central market and Yaoundé\'s main attractions.'
       }
     }
   ];
@@ -1288,8 +1191,8 @@
       name: { fr: 'Serge Atangana', en: 'Serge Atangana' },
       role: { fr: 'Chef de la réception', en: 'Head of Reception' },
       bio: {
-        fr: 'Le visage de l\'accueil : disponible 24 h/24, il connaît les meilleurs restaurants, les taxis fiables et les visites qui valent le détour.',
-        en: 'The public face of reception: available 24/7, he knows the best restaurants, reliable taxis and the visits worth the detour.'
+        fr: 'Le visage de l\'accueil : disponible 24 h/24, il vous accueille à la réception de l\'hôtel.',
+        en: 'The public face of reception: available 24/7 to welcome guests at the hotel.'
       },
       image: u('1531123897727-8f129e1688ce')
     },
@@ -1319,7 +1222,7 @@
       { image: u('1568084680786-a84f91d1153c'), caption: { fr: 'Le hall d\'accueil', en: 'The reception hall' } },
       { image: u('1517248135467-4c7edcad34c4'), caption: { fr: 'Le restaurant', en: 'The restaurant' } },
       { image: u('1508344928928-7165b67de128'), caption: { fr: 'La piscine', en: 'The swimming pool' } },
-      { image: u('1566073771259-6a8506099945'), caption: { fr: 'Une chambre Deluxe', en: 'A Deluxe room' } },
+      { image: u('1566073771259-6a8506099945'), caption: { fr: 'Une Suite Senior', en: 'A Senior Suite' } },
       { image: u('1439066615861-d1af74d74000'), caption: { fr: 'Le court de tennis', en: 'The tennis court' } },
       { image: u('1514933651103-005eec06c04b'), caption: { fr: 'Le bar', en: 'The bar' } },
       { image: u('1542314831-068cd1dbfeeb'), caption: { fr: 'La façade de l\'hôtel', en: 'The hotel façade' } },
@@ -1335,7 +1238,7 @@
   var HERO_IMAGES = {
     home: u('1568084680786-a84f91d1153c', 2000),
     rooms: u('1618773928121-c32242e63f39', 1600),
-    services: u('1514933651103-005eec06c04b', 1600),
+    services: 'img/services.png',
     about: u('1542314831-068cd1dbfeeb', 1600),
     contact: u('1522798514-97ceb8c4f1c8', 1600)
   };
