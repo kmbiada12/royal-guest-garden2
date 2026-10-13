@@ -127,7 +127,7 @@ Développement :
 ```powershell
 cd admin
 npm install
-npm run dev       # http://localhost:5173 (rechargement à chaud)
+npm run dev       # http://localhost:3002 (rechargement à chaud)
 npm run check     # vérification des types + tests (Vitest) + build
 npm run gen-types # régénère src/lib/database.types.ts après une migration
 ```

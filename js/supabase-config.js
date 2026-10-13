@@ -15,11 +15,10 @@
    ========================================================================= */
 
 window.RGG_SUPABASE = {
-  /* Supabase hébergé — Project Settings → API. Laissez « À-COMPLÉTER »
-     tant que le projet cloud n'existe pas : la source est alors ignorée. */
+  /* Supabase hébergé — Project Settings → API. */
   cloud: {
-    url: 'À-COMPLÉTER', // ex. https://abcdefgh.supabase.co
-    anonKey: 'À-COMPLÉTER' // clé « anon public » / « publishable »
+    url: 'https://jhdpmdwqssmbnslencbo.supabase.co',
+    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpoZHBtZHdxc3NtYm5zbGVuY2JvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5MTkyODMsImV4cCI6MjEwNzQ5NTI4M30.gwlTBi78JAPii23H1KQVOXdV6KY7LvROX33fZBiMer4'
   },
 
   /* Supabase local (supabase start) — clé affichée par `supabase status`. */
