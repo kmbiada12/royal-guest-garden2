@@ -17,8 +17,8 @@
 window.RGG_SUPABASE = {
   /* Supabase hébergé — Project Settings → API. */
   cloud: {
-    url: 'https://jhdpmdwqssmbnslencbo.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpoZHBtZHdxc3NtYm5zbGVuY2JvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5MTkyODMsImV4cCI6MjEwNzQ5NTI4M30.gwlTBi78JAPii23H1KQVOXdV6KY7LvROX33fZBiMer4'
+    url: 'https://yqursxngyyjbxotfockp.supabase.co',
+    anonKey: 'sb_publishable_reBEpYLukVx6a8-Xyu8ztg_Ioe31hrh'
   },
 
   /* Supabase local (supabase start) — clé affichée par `supabase status`. */
