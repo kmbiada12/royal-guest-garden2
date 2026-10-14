@@ -100,18 +100,18 @@
         'lumineuse'
       ],
       images: [
-        'img/chambres/wazabon/wazab.png',
-        'img/chambres/wazabon/Warm wood luxury bedroom retreat-2.png',
-        'img/chambres/wazabon/Luxury lounge with carved wood furnishings-3.png',
-        'img/chambres/wazabon/Warm wood dining nook-4.png',
-        'img/chambres/wazabon/Warm daylight in a polished kitchenette-5.png',
-        'img/chambres/wazabon/Luxury hotel living and kitchen in daylight-6.png',
-        'img/chambres/wazabon/Elegant hotel doorway air-conditioner detail-7.png',
-        'img/chambres/wazabon/Warm-lit luxury hotel bathroom-8.png',
-        'img/chambres/wazabon/Elegant lounge with carved wood sofa-9.png',
-        'img/chambres/wazabon/Warmly lit luxury hotel basin detail-10.png',
-        'img/chambres/wazabon/Luxury rain shower in stone and black-11.png',
-        'img/chambres/wazabon/Warm daylight in a luxury stone bathroom-12.png'
+        'img/chambres/wazabon/wazab.webp',
+        'img/chambres/wazabon/Warm wood luxury bedroom retreat-2.webp',
+        'img/chambres/wazabon/Luxury lounge with carved wood furnishings-3.webp',
+        'img/chambres/wazabon/Warm wood dining nook-4.webp',
+        'img/chambres/wazabon/Warm daylight in a polished kitchenette-5.webp',
+        'img/chambres/wazabon/Luxury hotel living and kitchen in daylight-6.webp',
+        'img/chambres/wazabon/Elegant hotel doorway air-conditioner detail-7.webp',
+        'img/chambres/wazabon/Warm-lit luxury hotel bathroom-8.webp',
+        'img/chambres/wazabon/Elegant lounge with carved wood sofa-9.webp',
+        'img/chambres/wazabon/Warmly lit luxury hotel basin detail-10.webp',
+        'img/chambres/wazabon/Luxury rain shower in stone and black-11.webp',
+        'img/chambres/wazabon/Warm daylight in a luxury stone bathroom-12.webp'
       ],
       breakfastIncluded: true,
       taxes: {
@@ -161,17 +161,17 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/lobe/lobe.png',
-        'img/chambres/lobe/Luxury hotel lounge with floral seating-1.png',
-        'img/chambres/lobe/Gold-Rimmed Vanity in Luxury Hotel Bathroom-2.png',
-        'img/chambres/lobe/Sunlit Luxury Suite With Kitchenette-3.png',
-        'img/chambres/lobe/Elegant Hotel Kitchenette in Soft Daylight-4.png',
-        'img/chambres/lobe/Luxury hotel bedroom in soft daylight-6.png',
-        'img/chambres/lobe/Luxury hotel bedroom with cane bed-7.png',
-        'img/chambres/lobe/Polished Honey-Wood Wardrobe Alcove-8.png',
-        'img/chambres/lobe/Warm Daylight Cane Bed Retreat-9.png',
-        'img/chambres/lobe/Elegant hotel shower with glass divider-10.png',
-        'img/chambres/lobe/Elegant Hotel Desk in Soft Daylight-11.png'
+        'img/chambres/lobe/lobe.webp',
+        'img/chambres/lobe/Luxury hotel lounge with floral seating-1.webp',
+        'img/chambres/lobe/Gold-Rimmed Vanity in Luxury Hotel Bathroom-2.webp',
+        'img/chambres/lobe/Sunlit Luxury Suite With Kitchenette-3.webp',
+        'img/chambres/lobe/Elegant Hotel Kitchenette in Soft Daylight-4.webp',
+        'img/chambres/lobe/Luxury hotel bedroom in soft daylight-6.webp',
+        'img/chambres/lobe/Luxury hotel bedroom with cane bed-7.webp',
+        'img/chambres/lobe/Polished Honey-Wood Wardrobe Alcove-8.webp',
+        'img/chambres/lobe/Warm Daylight Cane Bed Retreat-9.webp',
+        'img/chambres/lobe/Elegant hotel shower with glass divider-10.webp',
+        'img/chambres/lobe/Elegant Hotel Desk in Soft Daylight-11.webp'
       ],
       breakfastIncluded: false,
       taxes: {
@@ -223,25 +223,25 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/mouessi/mouessi.png',
-        'img/chambres/mouessi/Warm Modern Luxury Suite-1.png',
-        'img/chambres/mouessi/Elegant seating nook in warm daylight-2.png',
-        'img/chambres/mouessi/Elegant pedestal table and paisley chairs-3.png',
-        'img/chambres/mouessi/Luxury kitchenette in warm daylight-4.png',
-        'img/chambres/mouessi/Warm wood interiors with blue-grey drapes-5.png',
-        'img/chambres/mouessi/Refined writing desk in warm daylight-7.png',
-        'img/chambres/mouessi/Luxury bedroom with rounded cane headboard-8.png',
-        'img/chambres/mouessi/Warm luxury room with wood media chest-9.png',
-        'img/chambres/mouessi/Keypad hotel safe in warm wardrobe-10.png',
-        'img/chambres/mouessi/Luxury suite with wall-mounted AC-11.png',
-        'img/chambres/mouessi/Luxury hotel room with mirrored wardrobe-12.png',
-        'img/chambres/mouessi/Rounded Cane Bed with Golden Lamps-13.png',
-        'img/chambres/mouessi/Warmly lit cane bed retreat-14.png',
-        'img/chambres/mouessi/Warm wood-cane bedroom with ensuite-15.png',
-        'img/chambres/mouessi/Polished bathroom with twin pink basins-16.png',
-        'img/chambres/mouessi/Warm daylight over twin pink sinks-17.png',
-        'img/chambres/mouessi/Bedroom View Into Frosted Glass Bath-18.png',
-        'img/chambres/mouessi/Sunlit Luxury Interior with Rich Wood.png'
+        'img/chambres/mouessi/mouessi.webp',
+        'img/chambres/mouessi/Warm Modern Luxury Suite-1.webp',
+        'img/chambres/mouessi/Elegant seating nook in warm daylight-2.webp',
+        'img/chambres/mouessi/Elegant pedestal table and paisley chairs-3.webp',
+        'img/chambres/mouessi/Luxury kitchenette in warm daylight-4.webp',
+        'img/chambres/mouessi/Warm wood interiors with blue-grey drapes-5.webp',
+        'img/chambres/mouessi/Refined writing desk in warm daylight-7.webp',
+        'img/chambres/mouessi/Luxury bedroom with rounded cane headboard-8.webp',
+        'img/chambres/mouessi/Warm luxury room with wood media chest-9.webp',
+        'img/chambres/mouessi/Keypad hotel safe in warm wardrobe-10.webp',
+        'img/chambres/mouessi/Luxury suite with wall-mounted AC-11.webp',
+        'img/chambres/mouessi/Luxury hotel room with mirrored wardrobe-12.webp',
+        'img/chambres/mouessi/Rounded Cane Bed with Golden Lamps-13.webp',
+        'img/chambres/mouessi/Warmly lit cane bed retreat-14.webp',
+        'img/chambres/mouessi/Warm wood-cane bedroom with ensuite-15.webp',
+        'img/chambres/mouessi/Polished bathroom with twin pink basins-16.webp',
+        'img/chambres/mouessi/Warm daylight over twin pink sinks-17.webp',
+        'img/chambres/mouessi/Bedroom View Into Frosted Glass Bath-18.webp',
+        'img/chambres/mouessi/Sunlit Luxury Interior with Rich Wood.webp'
       ],
       breakfastIncluded: false,
       taxes: {
@@ -298,16 +298,16 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/ntem/ntem.png',
-        'img/chambres/ntem/Luxury hotel bedroom with urban view-1.png',
-        'img/chambres/ntem/Luminous luxury bedroom with urban view-2.png',
-        'img/chambres/ntem/Sunlit hotel kitchenette with wood accents-3.png',
-        'img/chambres/ntem/Carved-wood hotel lounge in warm daylight-4.png',
-        'img/chambres/ntem/Sunlit luxury bedroom with balcony views-6.png',
-        'img/chambres/ntem/Window-side luxury bedroom with sports court view-7.png',
-        'img/chambres/ntem/Luxury hotel wardrobe with mirrored panel-8.png',
-        'img/chambres/ntem/Classic hotel bedside table and telephone-9.png',
-        'img/chambres/ntem/Luminous terrazzo shower retreat-10.png'
+        'img/chambres/ntem/ntem.webp',
+        'img/chambres/ntem/Luxury hotel bedroom with urban view-1.webp',
+        'img/chambres/ntem/Luminous luxury bedroom with urban view-2.webp',
+        'img/chambres/ntem/Sunlit hotel kitchenette with wood accents-3.webp',
+        'img/chambres/ntem/Carved-wood hotel lounge in warm daylight-4.webp',
+        'img/chambres/ntem/Sunlit luxury bedroom with balcony views-6.webp',
+        'img/chambres/ntem/Window-side luxury bedroom with sports court view-7.webp',
+        'img/chambres/ntem/Luxury hotel wardrobe with mirrored panel-8.webp',
+        'img/chambres/ntem/Classic hotel bedside table and telephone-9.webp',
+        'img/chambres/ntem/Luminous terrazzo shower retreat-10.webp'
       ],
       breakfastIncluded: true,
       taxes: {
@@ -366,18 +366,18 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/febe/febe.png',
-        'img/chambres/febe/Elegant Hotel Sitting Room, Open TV Cabinet-1.png',
-        'img/chambres/febe/Polished Open-Gate Hotel Kitchenette-2.png',
-        'img/chambres/febe/Luxury bedroom with cane headboard-4.png',
-        'img/chambres/febe/Luxury suite with angled bed and kitchenette-5.png',
-        'img/chambres/febe/Elegant Bedside Table in Soft Daylight-6.png',
-        'img/chambres/febe/Luxury hotel corner with honeywood door-7.png',
-        'img/chambres/febe/Hotel room with TV and mirrored wardrobe-8.png',
-        'img/chambres/febe/Luxury hotel shower in warm daylight-9.png',
-        'img/chambres/febe/Hotel Window View with Palms and Lawn-10.png',
-        'img/chambres/febe/Hotel Bathroom Vanity in Soft Daylight-11.png',
-        'img/chambres/febe/Luxury bathroom with warm daylight-12.png'
+        'img/chambres/febe/febe.webp',
+        'img/chambres/febe/Elegant Hotel Sitting Room, Open TV Cabinet-1.webp',
+        'img/chambres/febe/Polished Open-Gate Hotel Kitchenette-2.webp',
+        'img/chambres/febe/Luxury bedroom with cane headboard-4.webp',
+        'img/chambres/febe/Luxury suite with angled bed and kitchenette-5.webp',
+        'img/chambres/febe/Elegant Bedside Table in Soft Daylight-6.webp',
+        'img/chambres/febe/Luxury hotel corner with honeywood door-7.webp',
+        'img/chambres/febe/Hotel room with TV and mirrored wardrobe-8.webp',
+        'img/chambres/febe/Luxury hotel shower in warm daylight-9.webp',
+        'img/chambres/febe/Hotel Window View with Palms and Lawn-10.webp',
+        'img/chambres/febe/Hotel Bathroom Vanity in Soft Daylight-11.webp',
+        'img/chambres/febe/Luxury bathroom with warm daylight-12.webp'
       ],
       breakfastIncluded: true,
       taxes: {
@@ -500,16 +500,16 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/dja/dja.png',
-        'img/chambres/dja/Luxury hotel lounge with carved seating-1.png',
-        'img/chambres/dja/Wooden TV Nook with Open Minibar-2.png',
-        'img/chambres/dja/Luxury Hotel Sitting Area with Wood Cabinet-3.png',
-        'img/chambres/dja/Blush tub in a navy-tiled bathroom-4.png',
-        'img/chambres/dja/Daylit Pink Double Vanity-5.png',
-        'img/chambres/dja/Pink Double-Sink Hotel Bathroom-6.png',
-        'img/chambres/dja/Pink tub, navy tiles, chrome shower-7.png',
-        'img/chambres/dja/Pink Bidet in Navy Tiles-8.png',
-        'img/chambres/dja/Elegant hotel room with chandelier-9.png'
+        'img/chambres/dja/dja.webp',
+        'img/chambres/dja/Luxury hotel lounge with carved seating-1.webp',
+        'img/chambres/dja/Wooden TV Nook with Open Minibar-2.webp',
+        'img/chambres/dja/Luxury Hotel Sitting Area with Wood Cabinet-3.webp',
+        'img/chambres/dja/Blush tub in a navy-tiled bathroom-4.webp',
+        'img/chambres/dja/Daylit Pink Double Vanity-5.webp',
+        'img/chambres/dja/Pink Double-Sink Hotel Bathroom-6.webp',
+        'img/chambres/dja/Pink tub, navy tiles, chrome shower-7.webp',
+        'img/chambres/dja/Pink Bidet in Navy Tiles-8.webp',
+        'img/chambres/dja/Elegant hotel room with chandelier-9.webp'
       ],
       breakfastIncluded: true,
       taxes: {
@@ -573,23 +573,23 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/laakam/laakam.png',
-        'img/chambres/laakam/Warmly-Lit-Hotel-Suite-Sitting-Area-1.png',
-        'img/chambres/laakam/Warmly-lit-hotel-room-with-balcony-view-2.png',
-        'img/chambres/laakam/Warmly-lit-carved-wood-hotel-sitting-area-3.png',
-        'img/chambres/laakam/Warmly-Refined-Hotel-Suite-Lounge-4.png',
-        'img/chambres/laakam/Warm-polished-hotel-room-and-kitchenette-5.png',
-        'img/chambres/laakam/Warm-refined-hotel-bedroom-6.png',
-        'img/chambres/laakam/Refined-double-bedroom-in-warm-daylight-8.png',
-        'img/chambres/laakam/Elegant-cream-marble-hotel-vanity-9.png',
-        'img/chambres/laakam/Bright-modern hotel-bathroom-retreat-10.png',
-        'img/chambres/laakam/Hotel-bathroom-heater-detail-11.png',
-        'img/chambres/laakam/Polished-rainfall shower-in-w-rm-stone-12.png',
-        'img/chambres/laakam/Warmly-lit-hotel-bathroom-detail-13.png',
-        'img/chambres/laakam/Warmly-lit-luxury-double-bedroom-14.png',
-        'img/chambres/laakam/Warm-polishe-luxury-hotel-bedroom-15.png',
-        'img/chambres/laakam/Elegant-hotel-room-with-city-view-16.png',
-        'img/chambres/laakam/Polished-hotel room-air conditioning detail-17.png'
+        'img/chambres/laakam/laakam.webp',
+        'img/chambres/laakam/Warmly-Lit-Hotel-Suite-Sitting-Area-1.webp',
+        'img/chambres/laakam/Warmly-lit-hotel-room-with-balcony-view-2.webp',
+        'img/chambres/laakam/Warmly-lit-carved-wood-hotel-sitting-area-3.webp',
+        'img/chambres/laakam/Warmly-Refined-Hotel-Suite-Lounge-4.webp',
+        'img/chambres/laakam/Warm-polished-hotel-room-and-kitchenette-5.webp',
+        'img/chambres/laakam/Warm-refined-hotel-bedroom-6.webp',
+        'img/chambres/laakam/Refined-double-bedroom-in-warm-daylight-8.webp',
+        'img/chambres/laakam/Elegant-cream-marble-hotel-vanity-9.webp',
+        'img/chambres/laakam/Bright-modern hotel-bathroom-retreat-10.webp',
+        'img/chambres/laakam/Hotel-bathroom-heater-detail-11.webp',
+        'img/chambres/laakam/Polished-rainfall shower-in-w-rm-stone-12.webp',
+        'img/chambres/laakam/Warmly-lit-hotel-bathroom-detail-13.webp',
+        'img/chambres/laakam/Warmly-lit-luxury-double-bedroom-14.webp',
+        'img/chambres/laakam/Warm-polishe-luxury-hotel-bedroom-15.webp',
+        'img/chambres/laakam/Elegant-hotel-room-with-city-view-16.webp',
+        'img/chambres/laakam/Polished-hotel room-air conditioning detail-17.webp'
       ],
       breakfastIncluded: false,
       taxes: {
@@ -654,22 +654,22 @@
         'securite-24'
       ],
       images: [
-        'img/chambres/oku/oku.png',
-        'img/chambres/oku/oku-1.png',
-        'img/chambres/oku/oku-2.png',
-        'img/chambres/oku/oku-3.png',
-        'img/chambres/oku/oku-4.png',
-        'img/chambres/oku/oku-5.png',
-        'img/chambres/oku/oku-6.png',
-        'img/chambres/oku/oku-7.png',
-        'img/chambres/oku/oku-9.png',
-        'img/chambres/oku/oku-10.png',
-        'img/chambres/oku/oku-11.png',
-        'img/chambres/oku/oku-12.png',
-        'img/chambres/oku/oku-13.png',
-        'img/chambres/oku/oku-14.png',
-        'img/chambres/oku/oku-15.png',
-        'img/chambres/oku/oku-16.png'
+        'img/chambres/oku/oku.webp',
+        'img/chambres/oku/oku-1.webp',
+        'img/chambres/oku/oku-2.webp',
+        'img/chambres/oku/oku-3.webp',
+        'img/chambres/oku/oku-4.webp',
+        'img/chambres/oku/oku-5.webp',
+        'img/chambres/oku/oku-6.webp',
+        'img/chambres/oku/oku-7.webp',
+        'img/chambres/oku/oku-9.webp',
+        'img/chambres/oku/oku-10.webp',
+        'img/chambres/oku/oku-11.webp',
+        'img/chambres/oku/oku-12.webp',
+        'img/chambres/oku/oku-13.webp',
+        'img/chambres/oku/oku-14.webp',
+        'img/chambres/oku/oku-15.webp',
+        'img/chambres/oku/oku-16.webp'
       ],
       breakfastIncluded: true,
       taxes: {
@@ -711,15 +711,15 @@
       },
       amenities: [],
       images: [
-        'img/chambres/noname/noname.png',
-        'img/chambres/noname/Sunlit cane-headboard hotel room-2.png',
-        'img/chambres/noname/Classic bedside table in warm daylight-3.png',
-        'img/chambres/noname/Luxury hotel TV console detail-4.png',
-        'img/chambres/noname/Luxury hotel desk beside grey curtains-5.png',
-        'img/chambres/noname/Sunlit luxury bedroom with a chandelier-6.png',
-        'img/chambres/noname/Narrow Luxury Bathroom in Warm Daylight-7.png',
-        'img/chambres/noname/Luxury bedroom in warm daylight-8.png',
-        'img/chambres/noname/Luxury Hotel Bathroom in Matte Black-9.png'
+        'img/chambres/noname/noname.webp',
+        'img/chambres/noname/Sunlit cane-headboard hotel room-2.webp',
+        'img/chambres/noname/Classic bedside table in warm daylight-3.webp',
+        'img/chambres/noname/Luxury hotel TV console detail-4.webp',
+        'img/chambres/noname/Luxury hotel desk beside grey curtains-5.webp',
+        'img/chambres/noname/Sunlit luxury bedroom with a chandelier-6.webp',
+        'img/chambres/noname/Narrow Luxury Bathroom in Warm Daylight-7.webp',
+        'img/chambres/noname/Luxury bedroom in warm daylight-8.webp',
+        'img/chambres/noname/Luxury Hotel Bathroom in Matte Black-9.webp'
       ],
       breakfastIncluded: false,
       breakfastNote: { fr: 'À confirmer', en: 'To be confirmed' },
@@ -741,7 +741,7 @@
     {
       id: 'hebergement',
       icon: 'bed',
-      image: 'img/hebergement.png',
+      image: 'img/hebergement.webp',
       title: { fr: 'Hébergement', en: 'Accommodation' },
       short: {
         fr: '10 chambres et suites réparties sur sept étages, avec des vues dégagées sur la ville et le jardin paysager.',
@@ -881,7 +881,7 @@
     {
       id: 'piscine',
       icon: 'pool',
-      image: 'img/piscine.png',
+      image: 'img/piscine.webp',
       title: { fr: 'Piscine & espaces de détente', en: 'Swimming pool & relaxation areas' },
       short: {
         fr: 'Une piscine de 20 mètres dans un jardin tropical, avec transats, parasols et coin bien-être au calme.',
@@ -928,7 +928,7 @@
     {
       id: 'evenements',
       icon: 'event',
-      image: 'img/salle-conference-room.png',
+      image: 'img/salle-conference-room.webp',
       title: { fr: 'Conférences', en: 'Conferences' },
       short: {
         fr: 'Salle de conférence pour 30 personnes, salon privé et accompagnement sur mesure pour vos rencontres professionnelles.',
@@ -972,7 +972,7 @@
     {
       id: 'espace-vert-evenement',
       icon: 'event',
-      image: 'img/espace_vert_vue.png',
+      image: 'img/espace_vert_vue.webp',
       title: { fr: 'Espace vert pour événements', en: 'Outdoor event space' },
       short: {
         fr: 'Location de l’espace vert à 2 000 000 FCFA pour trois jours, avec une suite de deux chambres offerte pour une nuitée.',
@@ -1283,7 +1283,7 @@
   var HERO_IMAGES = {
     home: u('1568084680786-a84f91d1153c', 2000),
     rooms: u('1618773928121-c32242e63f39', 1600),
-    services: 'img/services.png',
+    services: 'img/services.webp',
     about: u('1542314831-068cd1dbfeeb', 1600),
     contact: u('1522798514-97ceb8c4f1c8', 1600)
   };

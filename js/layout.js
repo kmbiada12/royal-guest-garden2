@@ -29,7 +29,7 @@
   ];
 
   var BRAND_LOGO =
-    '<img class="brand-mark" src="img/logo-rgg.png" alt="" aria-hidden="true">';
+    '<img class="brand-mark" src="img/logo-rgg.webp" alt="" aria-hidden="true">';
 
   var WA_ICON = [
     '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">',

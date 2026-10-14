@@ -250,6 +250,42 @@
   animation: zoomIn 1.4s var(--ease) both;
 }
 
+/* Mouvement de l'image du hero (page d'accueil uniquement) : fondu d'entrée
+   + léger effet Ken Burns (zoom/pan lent et continu). */
+body[data-page="home"] .hero__media {
+  animation:
+    heroFade 1.4s var(--ease) both,
+    heroDrift 34s ease-in-out 1.6s infinite;
+}
+
+@keyframes heroFade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes heroDrift {
+  0%   { transform: scale(1.02) translate3d(0, 0, 0); }
+  50%  { transform: scale(1.1) translate3d(-1.4%, -1%, 0); }
+  100% { transform: scale(1.02) translate3d(0, 0, 0); }
+}
+
+/* Révélation au défilement des images (page d'accueil uniquement).
+   L'attribut data-reveal n'est posé que par JavaScript : sans JS, tout
+   reste visible. */
+body[data-page="home"] [data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s var(--ease),
+    transform 0.7s var(--ease);
+  transition-delay: var(--reveal-delay, 0s);
+}
+
+body[data-page="home"] [data-reveal].is-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .hero__inner {
   position: relative;
   width: 100%;

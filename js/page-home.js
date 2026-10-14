@@ -84,8 +84,48 @@
     );
   }
 
+  /* ---------------------------------------------------------------------
+     Mouvement des images : révélation au défilement
+     --------------------------------------------------------------------- */
+  var reduceMotion =
+    window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function armReveal() {
+    var split = document.querySelector('.split__media');
+    if (split) split.setAttribute('data-reveal', '');
+
+    var media = [].slice.call(
+      document.querySelectorAll(
+        '[data-featured-rooms] .card__media, [data-home-services] .card__media'
+      )
+    );
+    media.forEach(function (el, i) {
+      el.setAttribute('data-reveal', '');
+      el.style.setProperty('--reveal-delay', ((i % 3) * 0.12) + 's');
+    });
+
+    var targets = [].slice.call(document.querySelectorAll('[data-reveal]:not(.is-in)'));
+    if (reduceMotion || !('IntersectionObserver' in window)) {
+      targets.forEach(function (el) { el.classList.add('is-in'); });
+      return;
+    }
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in');
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    targets.forEach(function (el) { io.observe(el); });
+  }
+
   function init() {
     render();
+    armReveal();
     if (window.RGG) window.RGG.onLanguageChange(render);
   }
 
